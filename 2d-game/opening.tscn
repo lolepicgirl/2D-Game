@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://kadf4xph2lh6"]
+
+[ext_resource type="Texture2D" uid="uid://bdwf37f1u66a8" path="res://169-background-images/background_43.png" id="1_symi2"]
+[ext_resource type="Script" path="res://control.gd" id="2_uk7it"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Background43" type="Sprite2D" parent="."]
+position = Vector2(590.25, 324.75)
+scale = Vector2(1.44097, 1.2627)
+texture = ExtResource("1_symi2")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -21.0
+offset_top = -1.0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("2_uk7it")
