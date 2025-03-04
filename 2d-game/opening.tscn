@@ -60,3 +60,6 @@ offset_top = 363.0
 offset_right = 587.0
 offset_bottom = 427.0
 text = "How to Play"
+
+[connection signal="pressed" from="Control/Label/Button" to="Control" method="_on_button_pressed"]
+[connection signal="pressed" from="Control/Label/Button2" to="Control" method="_on_button_2_pressed"]
