@@ -1,3 +1,119 @@
-[gd_scene format=3 uid="uid://cjdipo6n7togt"]
+[gd_scene load_steps=4 format=3 uid="uid://cjdipo6n7togt"]
 
-[node name="Node2D" type="Node2D"]
+[ext_resource type="Texture2D" uid="uid://bim5ngxpflhc3" path="res://Hospital TileSet.png" id="1_0xm2m"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1bvp3"]
+texture = ExtResource("1_0xm2m")
+texture_region_size = Vector2i(6, 6)
+0:0/size_in_atlas = Vector2i(8, 8)
+0:0/0 = 0
+8:0/size_in_atlas = Vector2i(8, 8)
+8:0/0 = 0
+0:8/size_in_atlas = Vector2i(4, 8)
+0:8/0 = 0
+4:8/size_in_atlas = Vector2i(4, 8)
+4:8/0 = 0
+8:8/size_in_atlas = Vector2i(8, 8)
+8:8/0 = 0
+12:21/size_in_atlas = Vector2i(4, 5)
+12:21/0 = 0
+16:22/size_in_atlas = Vector2i(4, 6)
+16:22/0 = 0
+20:23/size_in_atlas = Vector2i(4, 5)
+20:23/0 = 0
+24:22/size_in_atlas = Vector2i(3, 6)
+24:22/0 = 0
+28:20/size_in_atlas = Vector2i(4, 3)
+28:20/0 = 0
+44:13/size_in_atlas = Vector2i(4, 5)
+44:13/0 = 0
+40:22/size_in_atlas = Vector2i(12, 5)
+40:22/0 = 0
+52:19/size_in_atlas = Vector2i(8, 5)
+52:19/0 = 0
+60:19/size_in_atlas = Vector2i(8, 5)
+60:19/0 = 0
+68:20/size_in_atlas = Vector2i(8, 6)
+68:20/0 = 0
+56:11/size_in_atlas = Vector2i(4, 5)
+56:11/0 = 0
+61:8/size_in_atlas = Vector2i(3, 4)
+61:8/0 = 0
+64:9/size_in_atlas = Vector2i(4, 3)
+64:9/0 = 0
+28:25/size_in_atlas = Vector2i(4, 7)
+28:25/0 = 0
+32:25/size_in_atlas = Vector2i(4, 7)
+32:25/0 = 0
+68:7/size_in_atlas = Vector2i(16, 9)
+68:7/0 = 0
+76:24/size_in_atlas = Vector2i(4, 8)
+76:24/0 = 0
+80:28/size_in_atlas = Vector2i(3, 5)
+80:28/0 = 0
+76:32/size_in_atlas = Vector2i(4, 10)
+76:32/0 = 0
+72:30/size_in_atlas = Vector2i(4, 6)
+72:30/0 = 0
+69:29/size_in_atlas = Vector2i(3, 7)
+69:29/0 = 0
+64:25/size_in_atlas = Vector2i(4, 9)
+64:25/0 = 0
+60:25/size_in_atlas = Vector2i(4, 6)
+60:25/0 = 0
+56:26/size_in_atlas = Vector2i(4, 5)
+56:26/0 = 0
+53:28/size_in_atlas = Vector2i(3, 4)
+53:28/0 = 0
+61:36/size_in_atlas = Vector2i(6, 3)
+61:36/0 = 0
+64:40/size_in_atlas = Vector2i(4, 4)
+64:40/0 = 0
+68:41/size_in_atlas = Vector2i(4, 3)
+68:41/0 = 0
+61:40/size_in_atlas = Vector2i(3, 4)
+61:40/0 = 0
+57:37/size_in_atlas = Vector2i(3, 7)
+57:37/0 = 0
+44:28/size_in_atlas = Vector2i(4, 8)
+44:28/0 = 0
+48:30/size_in_atlas = Vector2i(4, 6)
+48:30/0 = 0
+48:36/size_in_atlas = Vector2i(4, 4)
+48:36/0 = 0
+45:36/size_in_atlas = Vector2i(3, 4)
+45:36/0 = 0
+48:40/size_in_atlas = Vector2i(4, 4)
+48:40/0 = 0
+33:36/size_in_atlas = Vector2i(2, 12)
+33:36/0 = 0
+11:36/size_in_atlas = Vector2i(14, 12)
+11:36/0 = 0
+12:28/size_in_atlas = Vector2i(4, 8)
+12:28/0 = 0
+16:28/size_in_atlas = Vector2i(4, 8)
+16:28/0 = 0
+20:28/size_in_atlas = Vector2i(4, 8)
+20:28/0 = 0
+8:27/size_in_atlas = Vector2i(4, 9)
+8:27/0 = 0
+4:29/size_in_atlas = Vector2i(4, 7)
+4:29/0 = 0
+0:31/size_in_atlas = Vector2i(4, 5)
+0:31/0 = 0
+16:0/size_in_atlas = Vector2i(4, 8)
+16:0/0 = 0
+20:0/size_in_atlas = Vector2i(4, 9)
+20:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_lquwl"]
+sources/0 = SubResource("TileSetAtlasSource_1bvp3")
+
+[node name="Asylum" type="Node2D"]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+tile_set = SubResource("TileSet_lquwl")
+
+[node name="HospitalTileSet" type="Sprite2D" parent="."]
+position = Vector2(254, 148)
+texture = ExtResource("1_0xm2m")
