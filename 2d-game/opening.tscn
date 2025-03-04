@@ -47,16 +47,16 @@ label_settings = SubResource("LabelSettings_kx8ny")
 
 [node name="Button" type="Button" parent="Control/Label"]
 layout_mode = 0
-offset_left = 249.0
-offset_top = 357.0
-offset_right = 423.0
-offset_bottom = 422.0
+offset_left = 32.0
+offset_top = 359.0
+offset_right = 206.0
+offset_bottom = 424.0
 text = "Start Game"
 
 [node name="Button2" type="Button" parent="Control/Label"]
 layout_mode = 0
-offset_left = 250.0
-offset_top = 437.0
-offset_right = 420.0
-offset_bottom = 501.0
+offset_left = 417.0
+offset_top = 363.0
+offset_right = 587.0
+offset_bottom = 427.0
 text = "How to Play"
