@@ -35,10 +35,10 @@ anchor_left = 1.376
 anchor_top = 0.635
 anchor_right = 1.376
 anchor_bottom = 0.635
-offset_left = -301.44
-offset_top = -114.09
-offset_right = 319.56
-offset_bottom = 161.91
+offset_left = -300.44
+offset_top = -169.09
+offset_right = 320.56
+offset_bottom = 106.91
 grow_horizontal = 2
 grow_vertical = 2
 text = "Deadlight
@@ -47,18 +47,18 @@ label_settings = SubResource("LabelSettings_kx8ny")
 
 [node name="Button" type="Button" parent="Control/Label"]
 layout_mode = 0
-offset_left = 32.0
-offset_top = 359.0
-offset_right = 206.0
-offset_bottom = 424.0
+offset_left = 209.0
+offset_top = 388.0
+offset_right = 383.0
+offset_bottom = 449.0
 text = "Start Game"
 
 [node name="Button2" type="Button" parent="Control/Label"]
 layout_mode = 0
-offset_left = 417.0
-offset_top = 363.0
-offset_right = 587.0
-offset_bottom = 427.0
+offset_left = 211.0
+offset_top = 478.0
+offset_right = 381.0
+offset_bottom = 542.0
 text = "How to Play"
 
 [connection signal="pressed" from="Control/Label/Button" to="Control" method="_on_button_pressed"]
