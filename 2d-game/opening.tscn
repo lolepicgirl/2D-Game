@@ -1,0 +1,65 @@
+[gd_scene load_steps=5 format=3 uid="uid://kadf4xph2lh6"]
+
+[ext_resource type="Texture2D" uid="uid://bdwf37f1u66a8" path="res://169-background-images/background_43.png" id="1_symi2"]
+[ext_resource type="Script" path="res://control.gd" id="2_uk7it"]
+[ext_resource type="FontFile" uid="uid://bpx8gfusmvj1r" path="res://169-background-images/another_danger/ghastly_panic/Ghastly Panic.ttf" id="3_t56y1"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_kx8ny"]
+font = ExtResource("3_t56y1")
+font_size = 300
+font_color = Color(0.47, 0.0282, 0.0282, 0.901961)
+outline_size = 8
+outline_color = Color(0.05, 0.05, 0.05, 1)
+shadow_size = 12
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Background43" type="Sprite2D" parent="."]
+position = Vector2(590.25, 324.75)
+scale = Vector2(1.44097, 1.2627)
+texture = ExtResource("1_symi2")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -21.0
+offset_top = -1.0
+offset_right = 419.0
+offset_bottom = 333.0
+script = ExtResource("2_uk7it")
+
+[node name="Label" type="Label" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.376
+anchor_top = 0.635
+anchor_right = 1.376
+anchor_bottom = 0.635
+offset_left = -300.44
+offset_top = -169.09
+offset_right = 320.56
+offset_bottom = 106.91
+grow_horizontal = 2
+grow_vertical = 2
+text = "Deadlight
+"
+label_settings = SubResource("LabelSettings_kx8ny")
+
+[node name="Button" type="Button" parent="Control/Label"]
+layout_mode = 0
+offset_left = 209.0
+offset_top = 388.0
+offset_right = 383.0
+offset_bottom = 449.0
+text = "Start Game"
+
+[node name="Button2" type="Button" parent="Control/Label"]
+layout_mode = 0
+offset_left = 211.0
+offset_top = 478.0
+offset_right = 381.0
+offset_bottom = 542.0
+text = "How to Play"
+
+[connection signal="pressed" from="Control/Label/Button" to="Control" method="_on_button_pressed"]
+[connection signal="pressed" from="Control/Label/Button2" to="Control" method="_on_button_2_pressed"]
