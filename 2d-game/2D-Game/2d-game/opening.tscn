@@ -14,7 +14,7 @@ shadow_size = 0
 [node name="Landing Page" type="Node2D"]
 
 [node name="DarkCastle(10)" type="Sprite2D" parent="."]
-position = Vector2(581.25, 334)
+position = Vector2(579, 329)
 scale = Vector2(0.397493, 0.403799)
 texture = ExtResource("1_agawe")
 
@@ -58,6 +58,13 @@ offset_top = 478.0
 offset_right = 381.0
 offset_bottom = 542.0
 text = "How to Play"
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 
 [connection signal="pressed" from="Control/Label/Button" to="Control" method="_on_button_pressed"]
 [connection signal="pressed" from="Control/Label/Button2" to="Control" method="_on_button_2_pressed"]
