@@ -1,15 +1,15 @@
 [gd_scene load_steps=4 format=3 uid="uid://kadf4xph2lh6"]
 
-[ext_resource type="Texture2D" uid="uid://d28jbrtxfm04i" path="res://2D-Game/2d-game/dark_castle_2_visual_novel_backgrounds/Dark Castle (10).jpg" id="1_agawe"]
-[ext_resource type="FontFile" uid="uid://bpx8gfusmvj1r" path="res://2D-Game/2d-game/169-background-images/another_danger/ghastly_panic/Ghastly Panic.ttf" id="3_t56y1"]
+[ext_resource type="Texture2D" uid="uid://d28jbrtxfm04i" path="res://2d-game/2d-game/dark_castle_2_visual_novel_backgrounds/Dark Castle (10).jpg" id="1_agawe"]
+[ext_resource type="FontFile" uid="uid://bpx8gfusmvj1r" path="res://2d-game/2d-game/169-background-images/another_danger/ghastly_panic/Ghastly Panic.ttf" id="3_t56y1"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_kx8ny"]
 font = ExtResource("3_t56y1")
 font_size = 300
-font_color = Color(0.470588, 0.027451, 0.341176, 0.686275)
+font_color = Color(0.35, 0.021, 0.212917, 0.819608)
 outline_size = 8
 outline_color = Color(0.05, 0.05, 0.05, 1)
-shadow_size = 12
+shadow_size = 0
 
 [node name="Landing Page" type="Node2D"]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ds3mhcc8kwfbi"
-path="res://.godot/imported/Dying_KG_2.png-7e069b754ff7294dce7bfc93ec936d70.ctex"
+path="res://.godot/imported/Dying_KG_2.png-ec89c737fdd09e1ce7bb96a16d40a0b7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2D-Game/2d-game/Player Options/Knight_player/Dying_KG_2.png"
-dest_files=["res://.godot/imported/Dying_KG_2.png-7e069b754ff7294dce7bfc93ec936d70.ctex"]
+source_file="res://2d-game/2d-game/Player Options/Knight_player/Dying_KG_2.png"
+dest_files=["res://.godot/imported/Dying_KG_2.png-ec89c737fdd09e1ce7bb96a16d40a0b7.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bim5ngxpflhc3"
-path="res://.godot/imported/Hospital TileSet.png-9164b3280e29e6a3ff311ca0a00d6fbd.ctex"
+path="res://.godot/imported/Hospital TileSet.png-971b54c450050ff5772ebb8fdfe94eb9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2D-Game/2d-game/Hospital TileSet.png"
-dest_files=["res://.godot/imported/Hospital TileSet.png-9164b3280e29e6a3ff311ca0a00d6fbd.ctex"]
+source_file="res://2d-game/2d-game/Hospital TileSet.png"
+dest_files=["res://.godot/imported/Hospital TileSet.png-971b54c450050ff5772ebb8fdfe94eb9.ctex"]
 
 [params]
 
