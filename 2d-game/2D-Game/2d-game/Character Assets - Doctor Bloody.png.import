@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dfshsw0oh23hk"
-path="res://.godot/imported/Character Assets - Doctor Bloody.png-e034cba820dc91e766548600aec309be.ctex"
+path="res://.godot/imported/Character Assets - Doctor Bloody.png-96d96600c9b3d4c4818268ff19dec5d5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2d-game/2d-game/Character Assets - Doctor Bloody.png"
-dest_files=["res://.godot/imported/Character Assets - Doctor Bloody.png-e034cba820dc91e766548600aec309be.ctex"]
+source_file="res://2D-Game/2d-game/Character Assets - Doctor Bloody.png"
+dest_files=["res://.godot/imported/Character Assets - Doctor Bloody.png-96d96600c9b3d4c4818268ff19dec5d5.ctex"]
 
 [params]
 
