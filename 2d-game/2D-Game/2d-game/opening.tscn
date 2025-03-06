@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://kadf4xph2lh6"]
 
-[ext_resource type="Texture2D" uid="uid://d28jbrtxfm04i" path="res://2D-Game/2d-game/dark_castle_2_visual_novel_backgrounds/Dark Castle (10).jpg" id="1_agawe"]
-[ext_resource type="FontFile" uid="uid://bpx8gfusmvj1r" path="res://2D-Game/2d-game/169-background-images/another_danger/ghastly_panic/Ghastly Panic.ttf" id="3_t56y1"]
+[ext_resource type="Texture2D" uid="uid://d28jbrtxfm04i" path="res://2d-game/2d-game/dark_castle_2_visual_novel_backgrounds/Dark Castle (10).jpg" id="1_agawe"]
+[ext_resource type="FontFile" uid="uid://bpx8gfusmvj1r" path="res://2d-game/2d-game/169-background-images/another_danger/ghastly_panic/Ghastly Panic.ttf" id="3_t56y1"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_kx8ny"]
 font = ExtResource("3_t56y1")
