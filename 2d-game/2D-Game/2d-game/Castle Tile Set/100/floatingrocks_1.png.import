@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dwfkdo24ggy48"
-path="res://.godot/imported/floatingrocks_1.png-d13c8a70aab84595b302d182986dcbe4.ctex"
+path="res://.godot/imported/floatingrocks_1.png-a28ba0fa8364b880167ddaed7dd7ddfe.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2d-game/2d-game/Castle Tile Set/100/floatingrocks_1.png"
-dest_files=["res://.godot/imported/floatingrocks_1.png-d13c8a70aab84595b302d182986dcbe4.ctex"]
+source_file="res://2D-Game/2d-game/Castle Tile Set/100/floatingrocks_1.png"
+dest_files=["res://.godot/imported/floatingrocks_1.png-a28ba0fa8364b880167ddaed7dd7ddfe.ctex"]
 
 [params]
 
