@@ -1,0 +1,32 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="2D Game"
+run/main_scene="res://2D-Game/2d-game/opening.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[file_customization]
+
+folder_colors={
+"res://2D-Game/2d-game/169-background-images/": "red",
+"res://2D-Game/2d-game/Castle 2.0/": "orange",
+"res://2D-Game/2d-game/Castle Tile Set/": "red",
+"res://2D-Game/2d-game/Castle-Hall/": "orange",
+"res://2D-Game/2d-game/Player Options/": "red",
+"res://2D-Game/2d-game/dark_castle_2_visual_novel_backgrounds/": "orange"
+}
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
