@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://es867xpctx1f"
-path="res://.godot/imported/Power_Up_KG_1.png-0d1e8f4e68ff34575d2e6b56facf69c9.ctex"
+path="res://.godot/imported/Power_Up_KG_1.png-0aa7e58514aa9172ab4c7579b06070d2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2D-Game/2d-game/Player Options/Knight_player/Power_Up_KG_1.png"
-dest_files=["res://.godot/imported/Power_Up_KG_1.png-0d1e8f4e68ff34575d2e6b56facf69c9.ctex"]
+source_file="res://2d-game/2d-game/Player Options/Knight_player/Power_Up_KG_1.png"
+dest_files=["res://.godot/imported/Power_Up_KG_1.png-0aa7e58514aa9172ab4c7579b06070d2.ctex"]
 
 [params]
 

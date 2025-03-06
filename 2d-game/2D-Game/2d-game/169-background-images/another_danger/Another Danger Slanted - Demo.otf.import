@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://bwtlpblsqfyxo"
-path="res://.godot/imported/Another Danger Slanted - Demo.otf-12db06afa11ef253d26bf35c82769a01.fontdata"
+path="res://.godot/imported/Another Danger Slanted - Demo.otf-b078e4e28201b79cd21d20f9ccf8c449.fontdata"
 
 [deps]
 
-source_file="res://2D-Game/2d-game/169-background-images/another_danger/Another Danger Slanted - Demo.otf"
-dest_files=["res://.godot/imported/Another Danger Slanted - Demo.otf-12db06afa11ef253d26bf35c82769a01.fontdata"]
+source_file="res://2d-game/2d-game/169-background-images/another_danger/Another Danger Slanted - Demo.otf"
+dest_files=["res://.godot/imported/Another Danger Slanted - Demo.otf-b078e4e28201b79cd21d20f9ccf8c449.fontdata"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgub2lp0odw42"
-path="res://.godot/imported/Idle_KG_1.png-3d43c64e02598d36b9beca03b38cd1e1.ctex"
+path="res://.godot/imported/Idle_KG_1.png-a620d1f5776ead56d0582ad4ab2c7de3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2D-Game/2d-game/Player Options/Knight_player/Idle_KG_1.png"
-dest_files=["res://.godot/imported/Idle_KG_1.png-3d43c64e02598d36b9beca03b38cd1e1.ctex"]
+source_file="res://2d-game/2d-game/Player Options/Knight_player/Idle_KG_1.png"
+dest_files=["res://.godot/imported/Idle_KG_1.png-a620d1f5776ead56d0582ad4ab2c7de3.ctex"]
 
 [params]
 
