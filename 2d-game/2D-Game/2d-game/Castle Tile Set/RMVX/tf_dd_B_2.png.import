@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://s53r8o66c7sa"
-path="res://.godot/imported/tf_dd_B_2.png-d240eb752d67b4f2d294e0d2bbfcfba3.ctex"
+path="res://.godot/imported/tf_dd_B_2.png-04a1f5860443eddae9620dcbbe09aacd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2D-Game/2d-game/Castle Tile Set/RMVX/tf_dd_B_2.png"
-dest_files=["res://.godot/imported/tf_dd_B_2.png-d240eb752d67b4f2d294e0d2bbfcfba3.ctex"]
+source_file="res://2d-game/2d-game/Castle Tile Set/RMVX/tf_dd_B_2.png"
+dest_files=["res://.godot/imported/tf_dd_B_2.png-04a1f5860443eddae9620dcbbe09aacd.ctex"]
 
 [params]
 
