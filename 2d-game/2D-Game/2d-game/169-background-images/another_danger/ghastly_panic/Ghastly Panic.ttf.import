@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://bpx8gfusmvj1r"
-path="res://.godot/imported/Ghastly Panic.ttf-1bba0774854cdfd31b30c13b5dc82e2d.fontdata"
+path="res://.godot/imported/Ghastly Panic.ttf-fd94ce1716a72cfa9f37765d7bb9dd4d.fontdata"
 
 [deps]
 
-source_file="res://2d-game/2d-game/169-background-images/another_danger/ghastly_panic/Ghastly Panic.ttf"
-dest_files=["res://.godot/imported/Ghastly Panic.ttf-1bba0774854cdfd31b30c13b5dc82e2d.fontdata"]
+source_file="res://2D-Game/2d-game/169-background-images/another_danger/ghastly_panic/Ghastly Panic.ttf"
+dest_files=["res://.godot/imported/Ghastly Panic.ttf-fd94ce1716a72cfa9f37765d7bb9dd4d.fontdata"]
 
 [params]
 
