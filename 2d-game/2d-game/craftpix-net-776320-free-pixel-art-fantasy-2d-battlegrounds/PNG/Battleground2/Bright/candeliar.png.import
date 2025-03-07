@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bs5yqvajavx0t"
-path="res://.godot/imported/candeliar.png-cc9005ff84bb1d59fa332216e7d3e8c8.ctex"
+path="res://.godot/imported/candeliar.png-75174b54ed9ed813051036b0e8cf4f31.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2d-game/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground2/Bright/candeliar.png"
-dest_files=["res://.godot/imported/candeliar.png-cc9005ff84bb1d59fa332216e7d3e8c8.ctex"]
+source_file="res://2D-Game/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground2/Bright/candeliar.png"
+dest_files=["res://.godot/imported/candeliar.png-75174b54ed9ed813051036b0e8cf4f31.ctex"]
 
 [params]
 
