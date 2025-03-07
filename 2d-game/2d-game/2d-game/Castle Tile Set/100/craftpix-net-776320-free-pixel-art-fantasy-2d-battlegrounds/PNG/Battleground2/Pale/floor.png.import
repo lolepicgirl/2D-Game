@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bj18cfbc3dbfh"
-path="res://.godot/imported/floor.png-20428b6f4310e9e3e885800509121e1a.ctex"
+path="res://.godot/imported/floor.png-6560288ebb95b8241b4151743dbb5949.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2D-Game/2d-game/Castle Tile Set/100/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground2/Pale/floor.png"
-dest_files=["res://.godot/imported/floor.png-20428b6f4310e9e3e885800509121e1a.ctex"]
+source_file="res://2d-game/2d-game/Castle Tile Set/100/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground2/Pale/floor.png"
+dest_files=["res://.godot/imported/floor.png-6560288ebb95b8241b4151743dbb5949.ctex"]
 
 [params]
 

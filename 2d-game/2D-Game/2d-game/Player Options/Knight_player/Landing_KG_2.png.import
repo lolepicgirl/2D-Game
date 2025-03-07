@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://vr12rrsixd3p"
-path="res://.godot/imported/Landing_KG_2.png-a3b47bc5b0d0ad18faf950b426ef3ccd.ctex"
+path="res://.godot/imported/Landing_KG_2.png-cd641bd64b3b5a4fd82e0e488c9050e5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2D-Game/2d-game/Player Options/Knight_player/Landing_KG_2.png"
-dest_files=["res://.godot/imported/Landing_KG_2.png-a3b47bc5b0d0ad18faf950b426ef3ccd.ctex"]
+source_file="res://2d-game/2d-game/Player Options/Knight_player/Landing_KG_2.png"
+dest_files=["res://.godot/imported/Landing_KG_2.png-cd641bd64b3b5a4fd82e0e488c9050e5.ctex"]
 
 [params]
 
