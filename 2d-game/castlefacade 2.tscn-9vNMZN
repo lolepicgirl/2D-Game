@@ -1,20 +1,20 @@
-[gd_scene load_steps=37 format=4 uid="uid://sem25x7o8b8q"]
+[gd_scene load_steps=36 format=4 uid="uid://sem25x7o8b8q"]
 
-[ext_resource type="Texture2D" uid="uid://2en824v0g50h" path="res://2D-Game/2d-game/Castle 2.0/castle-Sheet.png" id="1_7g2dm"]
-[ext_resource type="Texture2D" uid="uid://bdv47ij8f8fqn" path="res://2D-Game/2d-game/Castle Tile Set/100/tf_dd_B_1.png" id="2_kas81"]
-[ext_resource type="Texture2D" uid="uid://ddkl5hoiymay3" path="res://2D-Game/2d-game/Castle Tile Set/100/tf_dd_A5_1.png" id="3_4t6k1"]
-[ext_resource type="Texture2D" uid="uid://div45xd50ef8a" path="res://2D-Game/2d-game/Castle Tile Set/dd_waterfall_sheet.png" id="4_ekv1t"]
-[ext_resource type="Texture2D" uid="uid://bs6y32r6uu80p" path="res://2D-Game/2d-game/Castle Tile Set/tf_darkdimension_sheet.png" id="5_7lwox"]
-[ext_resource type="Texture2D" uid="uid://c71uckabg87ld" path="res://2D-Game/2d-game/Castle 2.0/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground2/Pale/mountaims.png" id="6_2g6nq"]
-[ext_resource type="Texture2D" uid="uid://bijrqaueovqrf" path="res://2D-Game/2d-game/Castle 2.0/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground2/Bright/mountaims.png" id="7_kojxw"]
-[ext_resource type="Texture2D" uid="uid://dwfkdo24ggy48" path="res://2D-Game/2d-game/Castle Tile Set/100/floatingrocks_1.png" id="8_5omn4"]
-[ext_resource type="Texture2D" uid="uid://cenbns4ruafwr" path="res://2D-Game/2d-game/Castle 2.0/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground4/Bright/bones.png" id="9_lhm2m"]
-[ext_resource type="Texture2D" uid="uid://dx05ptgsr2j6q" path="res://2D-Game/2d-game/Castle 2.0/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground4/Bright/back_trees.png" id="10_o2jax"]
-[ext_resource type="Texture2D" uid="uid://c4scxs1nyhflk" path="res://2D-Game/2d-game/Castle 2.0/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground4/Bright/ground.png" id="11_caynn"]
-[ext_resource type="Texture2D" uid="uid://lie5hqi5hkvs" path="res://2D-Game/2d-game/Castle 2.0/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground4/Bright/wall.png" id="12_vff1e"]
-[ext_resource type="Texture2D" uid="uid://bvaemolv3xge6" path="res://2D-Game/2d-game/Castle 2.0/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground4/Pale/back_trees.png" id="13_bxt5e"]
-[ext_resource type="Texture2D" uid="uid://fq0stnx0kjsj" path="res://2D-Game/2d-game/Player Options/Knight_player/Talking_KG.png" id="14_bvvcx"]
-[ext_resource type="Script" path="res://player.gd" id="15_talar"]
+[ext_resource type="Texture2D" uid="uid://2en824v0g50h" path="res://2d-game/2d-game/Castle 2.0/castle-Sheet.png" id="1_7g2dm"]
+[ext_resource type="Texture2D" uid="uid://bdv47ij8f8fqn" path="res://2d-game/2d-game/Castle Tile Set/100/tf_dd_B_1.png" id="2_kas81"]
+[ext_resource type="Texture2D" uid="uid://ddkl5hoiymay3" path="res://2d-game/2d-game/Castle Tile Set/100/tf_dd_A5_1.png" id="3_4t6k1"]
+[ext_resource type="Texture2D" uid="uid://div45xd50ef8a" path="res://2d-game/2d-game/Castle Tile Set/dd_waterfall_sheet.png" id="4_ekv1t"]
+[ext_resource type="Texture2D" uid="uid://bs6y32r6uu80p" path="res://2d-game/2d-game/Castle Tile Set/tf_darkdimension_sheet.png" id="5_7lwox"]
+[ext_resource type="Texture2D" uid="uid://c71uckabg87ld" path="res://2d-game/2d-game/Castle 2.0/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground2/Pale/mountaims.png" id="6_2g6nq"]
+[ext_resource type="Texture2D" uid="uid://bijrqaueovqrf" path="res://2d-game/2d-game/Castle 2.0/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground2/Bright/mountaims.png" id="7_kojxw"]
+[ext_resource type="Texture2D" uid="uid://dwfkdo24ggy48" path="res://2d-game/2d-game/Castle Tile Set/100/floatingrocks_1.png" id="8_5omn4"]
+[ext_resource type="Texture2D" uid="uid://cenbns4ruafwr" path="res://2d-game/2d-game/Castle 2.0/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground4/Bright/bones.png" id="9_lhm2m"]
+[ext_resource type="Texture2D" uid="uid://dx05ptgsr2j6q" path="res://2d-game/2d-game/Castle 2.0/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground4/Bright/back_trees.png" id="10_o2jax"]
+[ext_resource type="Texture2D" uid="uid://c4scxs1nyhflk" path="res://2d-game/2d-game/Castle 2.0/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground4/Bright/ground.png" id="11_caynn"]
+[ext_resource type="Texture2D" uid="uid://lie5hqi5hkvs" path="res://2d-game/2d-game/Castle 2.0/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground4/Bright/wall.png" id="12_vff1e"]
+[ext_resource type="Texture2D" uid="uid://bvaemolv3xge6" path="res://2d-game/2d-game/Castle 2.0/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground4/Pale/back_trees.png" id="13_bxt5e"]
+[ext_resource type="AudioStream" uid="uid://bv1cuepb2sjue" path="res://2d-game/2d-game/horror-ambience-3-303646.mp3" id="14_umhc2"]
+[ext_resource type="Script" path="res://2D-Game/2d-game/audio_stream_player_2d.gd" id="15_mlxpx"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gx2pc"]
 texture = ExtResource("1_7g2dm")
@@ -39174,10 +39174,6 @@ texture = ExtResource("2_kas81")
 sources/0 = SubResource("TileSetAtlasSource_0lkps")
 sources/1 = SubResource("TileSetAtlasSource_1lnn5")
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_sh0ag"]
-radius = 15.8391
-height = 67.6227
-
 [node name="Node2D" type="Node2D"]
 
 [node name="sky" type="TileMapLayer" parent="."]
@@ -39223,20 +39219,3 @@ tile_set = SubResource("TileSet_vm7yy")
 [node name="castle" type="TileMapLayer" parent="."]
 tile_map_data = PackedByteArray("AAArAAsAAACWAAAAAAArAA0AAACWAAIAAAArAA8AAACWAAQAAAArABAAAACWAAUAAAArABEAAACWAAYAAAArABIAAACWAAcAAAArABMAAACWAAgAAAArABQAAACWAAkAAAArABUAAACWAAoAAAArABYAAACWAAsAAAArABcAAACWAAwAAAArABgAAACWAA0AAAArABkAAACWAA4AAAArABoAAACWAA8AAAArABsAAACWABAAAAArABwAAACWABEAAAArAB0AAACWABIAAAArAB4AAACWABMAAAArAB8AAACWABQAAAArACAAAACWABUAAAArACEAAACWABYAAAAsAAsAAACXAAAAAAAsAAwAAACXAAEAAAAsAA0AAACXAAIAAAAsAA4AAACXAAMAAAAsAA8AAACXAAQAAAAsABAAAACXAAUAAAAsABEAAACXAAYAAAAsABIAAACXAAcAAAAsABMAAACXAAgAAAAsABQAAACXAAkAAAAsABUAAACXAAoAAAAsABYAAACXAAsAAAAsABcAAACXAAwAAAAsABgAAACXAA0AAAAsABkAAACXAA4AAAAsABoAAACXAA8AAAAsABsAAACXABAAAAAsABwAAACXABEAAAAsAB0AAACXABIAAAAsAB4AAACXABMAAAAsAB8AAACXABQAAAAsACAAAACXABUAAAAsACEAAACXABYAAAAsACIAAACXABcAAAAtAAwAAACYAAEAAAAtAA0AAACYAAIAAAAtAA8AAACYAAQAAAAtABAAAACYAAUAAAAtABEAAACYAAYAAAAtABIAAACYAAcAAAAtABMAAACYAAgAAAAtABQAAACYAAkAAAAtABUAAACYAAoAAAAtABYAAACYAAsAAAAtABcAAACYAAwAAAAtABgAAACYAA0AAAAtABkAAACYAA4AAAAtABoAAACYAA8AAAAtABsAAACYABAAAAAtABwAAACYABEAAAAtAB0AAACYABIAAAAtAB4AAACYABMAAAAtAB8AAACYABQAAAAtACAAAACYABUAAAAtACEAAACYABYAAAAtACIAAACYABcAAAAuABEAAACZAAYAAAAuABIAAACZAAcAAAAuABMAAACZAAgAAAAuABQAAACZAAkAAAAuABUAAACZAAoAAAAuABYAAACZAAsAAAAuABcAAACZAAwAAAAuABgAAACZAA0AAAAuABkAAACZAA4AAAAuABoAAACZAA8AAAAuABsAAACZABAAAAAuABwAAACZABEAAAAuAB0AAACZABIAAAAuAB4AAACZABMAAAAuAB8AAACZABQAAAAuACAAAACZABUAAAAuACEAAACZABYAAAAuACIAAACZABcAAAAuACMAAACZABgAAAAvABMAAACaAAgAAAAvABQAAACaAAkAAAAvABUAAACaAAoAAAAvABYAAACaAAsAAAAvABcAAACaAAwAAAAvABgAAACaAA0AAAAvABkAAACaAA4AAAAvABoAAACaAA8AAAAvABsAAACaABAAAAAvABwAAACaABEAAAAvAB0AAACaABIAAAAvAB4AAACaABMAAAAvAB8AAACaABQAAAAvACAAAACaABUAAAAvACEAAACaABYAAAAvACIAAACaABcAAAAwABcAAACbAAwAAAAwABgAAACbAA0AAAAwABkAAACbAA4AAAAwABoAAACbAA8AAAAwABsAAACbABAAAAAwABwAAACbABEAAAAwAB0AAACbABIAAAAwAB4AAACbABMAAAAwAB8AAACbABQAAAAwACAAAACbABUAAAAwACEAAACbABYAAAAwACIAAACbABcAAAAxABoAAACcAA8AAAAxABsAAACcABAAAAAxABwAAACcABEAAAAxAB0AAACcABIAAAAxAB4AAACcABMAAAAxAB8AAACcABQAAAAxACAAAACcABUAAAAxACEAAACcABYAAAAxACIAAACcABcAAAAxACMAAACcABgAAAAyABkAAACdAA4AAAAyABoAAACdAA8AAAAyABsAAACdABAAAAAyABwAAACdABEAAAAyAB0AAACdABIAAAAyAB4AAACdABMAAAAyAB8AAACdABQAAAAyACAAAACdABUAAAAyACEAAACdABYAAAAyACIAAACdABcAAAAyACMAAACdABgAAAAzABkAAACeAA4AAAAzABoAAACeAA8AAAAzABsAAACeABAAAAAzABwAAACeABEAAAAzAB0AAACeABIAAAAzAB4AAACeABMAAAAzAB8AAACeABQAAAAzACAAAACeABUAAAAzACEAAACeABYAAAAzACIAAACeABcAAAA0ABwAAACfABEAAAA0AB0AAACfABIAAAA0AB4AAACfABMAAAA0AB8AAACfABQAAAA0ACAAAACfABUAAAA0ACEAAACfABYAAAA0ACIAAACfABcAAAAlABkAAACQAA4AAAAlAB4AAABeABQAAAAlAB8AAABeABUAAAAlACAAAABeABYAAAAlACEAAABeABcAAAAmABcAAACRAAwAAAAmABgAAACRAA0AAAAmABkAAACRAA4AAAAmABoAAACRAA8AAAAmABsAAACRABAAAAAmABwAAACRABEAAAAmAB0AAACRABIAAAAmAB4AAACRABMAAAAmAB8AAACRABQAAAAmACAAAACRABUAAAAmACEAAACRABYAAAAnABQAAACSAAkAAAAnABYAAACSAAsAAAAnABcAAACSAAwAAAAnABgAAACSAA0AAAAnABkAAACSAA4AAAAnABoAAACSAA8AAAAnABsAAACSABAAAAAnABwAAACSABEAAAAnAB0AAACSABIAAAAnAB4AAACSABMAAAAnAB8AAACSABQAAAAnACAAAACSABUAAAAnACEAAACSABYAAAAoABMAAACTAAgAAAAoABQAAACTAAkAAAAoABUAAACTAAoAAAAoABYAAACTAAsAAAAoABcAAACTAAwAAAAoABgAAACTAA0AAAAoABkAAACTAA4AAAAoABoAAACTAA8AAAAoABsAAACTABAAAAAoABwAAACTABEAAAAoAB0AAACTABIAAAAoAB4AAACTABMAAAAoAB8AAACTABQAAAAoACAAAACTABUAAAAoACEAAACTABYAAAApABIAAACUAAcAAAApABMAAACUAAgAAAApABQAAACUAAkAAAApABUAAACUAAoAAAApABYAAACUAAsAAAApABcAAACUAAwAAAApABgAAACUAA0AAAApABkAAACUAA4AAAApABoAAACUAA8AAAApABsAAACUABAAAAApABwAAACUABEAAAApAB0AAACUABIAAAApAB4AAACUABMAAAApAB8AAACUABQAAAApACAAAACUABUAAAApACEAAACUABYAAAAqABIAAACVAAcAAAAqABMAAACVAAgAAAAqABQAAACVAAkAAAAqABUAAACVAAoAAAAqABYAAACVAAsAAAAqABcAAACVAAwAAAAqABgAAACVAA0AAAAqABkAAACVAA4AAAAqABoAAACVAA8AAAAqABsAAACVABAAAAAqABwAAACVABEAAAAqAB0AAACVABIAAAAqAB4AAACVABMAAAAqAB8AAACVABQAAAAqACAAAACVABUAAAAqACEAAACVABYAAAAqABEAAACVAAYAAAAnACIAAACSABcAAAAoACIAAACTABcAAAAdABYAAABWAAwAAAAkABkAAABdAA8AAAAkAB4AAABdABQAAAAkAB8AAABdABUAAAAkACAAAABdABYAAAAkACEAAABdABcAAAAXABsAAABQABEAAAAXABwAAABQABIAAAAXAB0AAABQABMAAAAXAB4AAABQABQAAAAXAB8AAABQABUAAAAXACAAAABQABYAAAAYABoAAABRABAAAAAYABsAAABRABEAAAAYABwAAABRABIAAAAYAB0AAABRABMAAAAYAB4AAABRABQAAAAYAB8AAABRABUAAAAYACAAAABRABYAAAAZABoAAABSABAAAAAZABsAAABSABEAAAAZABwAAABSABIAAAAZAB0AAABSABMAAAAZAB4AAABSABQAAAAZAB8AAABSABUAAAAZACAAAABSABYAAAAZACEAAABSABcAAAAaABgAAABTAA4AAAAaABkAAABTAA8AAAAaABoAAABTABAAAAAaABsAAABTABEAAAAaABwAAABTABIAAAAaAB0AAABTABMAAAAaAB4AAABTABQAAAAaAB8AAABTABUAAAAaACAAAABTABYAAAAaACEAAABTABcAAAAbABcAAABUAA0AAAAbABgAAABUAA4AAAAbABkAAABUAA8AAAAbABoAAABUABAAAAAbABsAAABUABEAAAAbABwAAABUABIAAAAbAB0AAABUABMAAAAbAB4AAABUABQAAAAbAB8AAABUABUAAAAbACAAAABUABYAAAAbACEAAABUABcAAAAcABcAAABVAA0AAAAcABgAAABVAA4AAAAcABkAAABVAA8AAAAcABoAAABVABAAAAAcABsAAABVABEAAAAcABwAAABVABIAAAAcAB0AAABVABMAAAAcAB4AAABVABQAAAAcAB8AAABVABUAAAAcACAAAABVABYAAAAdABcAAABWAA0AAAAdABgAAABWAA4AAAAdABkAAABWAA8AAAAdABoAAABWABAAAAAdABsAAABWABEAAAAdABwAAABWABIAAAAdAB0AAABWABMAAAAdAB4AAABWABQAAAAdAB8AAABWABUAAAAdACAAAABWABYAAAAeABYAAABXAAwAAAAeABcAAABXAA0AAAAeABgAAABXAA4AAAAeABkAAABXAA8AAAAeABoAAABXABAAAAAeABsAAABXABEAAAAeABwAAABXABIAAAAeAB0AAABXABMAAAAeAB4AAABXABQAAAAeAB8AAABXABUAAAAeACAAAABXABYAAAAeACEAAABXABcAAAAfABcAAABYAA0AAAAfABgAAABYAA4AAAAfABkAAABYAA8AAAAfABoAAABYABAAAAAfABsAAABYABEAAAAfABwAAABYABIAAAAfAB0AAABYABMAAAAfAB4AAABYABQAAAAfAB8AAABYABUAAAAfACAAAABYABYAAAAfACEAAABYABcAAAAgABcAAABZAA0AAAAgABgAAABZAA4AAAAgABkAAABZAA8AAAAgABoAAABZABAAAAAgABsAAABZABEAAAAgABwAAABZABIAAAAgAB0AAABZABMAAAAgAB4AAABZABQAAAAgAB8AAABZABUAAAAgACAAAABZABYAAAAgACEAAABZABcAAAAhABgAAABaAA4AAAAhABkAAABaAA8AAAAhABoAAABaABAAAAAhABsAAABaABEAAAAhABwAAABaABIAAAAhAB0AAABaABMAAAAhAB4AAABaABQAAAAhAB8AAABaABUAAAAhACAAAABaABYAAAAhACEAAABaABcAAAAiABgAAABbAA4AAAAiABkAAABbAA8AAAAiABoAAABbABAAAAAiABsAAABbABEAAAAiABwAAABbABIAAAAiAB0AAABbABMAAAAiAB4AAABbABQAAAAiAB8AAABbABUAAAAiACAAAABbABYAAAAiACEAAABbABcAAAAjABoAAABcABAAAAAjABsAAABcABEAAAAjABwAAABcABIAAAAjAB0AAABcABMAAAAjAB4AAABcABQAAAAjAB8AAABcABUAAAAjACAAAABcABYAAAAjACEAAABcABcAAAAkABoAAABdABAAAAAkABsAAABdABEAAAAkABwAAABdABIAAAAkAB0AAABdABMAAAAlABoAAABeABAAAAAlABsAAABeABEAAAAlABwAAABeABIAAAAlAB0AAABeABMAAAA=")
 tile_set = SubResource("TileSet_vm7yy")
-
-[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
-script = ExtResource("15_talar")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
-position = Vector2(22, 531)
-scale = Vector2(0.820755, 0.828125)
-shape = SubResource("CapsuleShape2D_sh0ag")
-
-[node name="Player" type="Sprite2D" parent="CharacterBody2D"]
-position = Vector2(22.25, 529.5)
-scale = Vector2(0.820755, 0.828125)
-texture = ExtResource("14_bvvcx")
-region_enabled = true
-region_rect = Rect2(322.5, 0, 53.5, 64)
-region_filter_clip_enabled = true
-script = ExtResource("15_talar")

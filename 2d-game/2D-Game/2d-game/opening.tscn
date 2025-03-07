@@ -1,8 +1,8 @@
 [gd_scene load_steps=6 format=3 uid="uid://kadf4xph2lh6"]
 
-[ext_resource type="Texture2D" uid="uid://d28jbrtxfm04i" path="res://2d-game/2d-game/dark_castle_2_visual_novel_backgrounds/Dark Castle (10).jpg" id="1_agawe"]
-[ext_resource type="AudioStream" uid="uid://bv1cuepb2sjue" path="res://2d-game/2d-game/horror-ambience-3-303646.mp3" id="3_sjwdo"]
-[ext_resource type="FontFile" uid="uid://bpx8gfusmvj1r" path="res://2d-game/2d-game/169-background-images/another_danger/ghastly_panic/Ghastly Panic.ttf" id="3_t56y1"]
+[ext_resource type="Texture2D" uid="uid://d28jbrtxfm04i" path="res://2D-Game/2d-game/dark_castle_2_visual_novel_backgrounds/Dark Castle (10).jpg" id="1_agawe"]
+[ext_resource type="AudioStream" uid="uid://bv1cuepb2sjue" path="res://2D-Game/2d-game/horror-ambience-3-303646.mp3" id="3_sjwdo"]
+[ext_resource type="FontFile" uid="uid://bpx8gfusmvj1r" path="res://2D-Game/2d-game/169-background-images/another_danger/ghastly_panic/Ghastly Panic.ttf" id="3_t56y1"]
 [ext_resource type="Script" path="res://2D-Game/2d-game/audio_stream_player_2d.gd" id="4_3aenb"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_kx8ny"]

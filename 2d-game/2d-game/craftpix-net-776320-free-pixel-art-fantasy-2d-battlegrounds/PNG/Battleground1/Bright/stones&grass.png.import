@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://62cbrtkix7g0"
-path="res://.godot/imported/stones&grass.png-ee814df84c79ff4d2c9ab4e7acd0e5ed.ctex"
+path="res://.godot/imported/stones&grass.png-0a04543512410b225994996c944c0af3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2d-game/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground1/Bright/stones&grass.png"
-dest_files=["res://.godot/imported/stones&grass.png-ee814df84c79ff4d2c9ab4e7acd0e5ed.ctex"]
+source_file="res://2D-Game/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground1/Bright/stones&grass.png"
+dest_files=["res://.godot/imported/stones&grass.png-0a04543512410b225994996c944c0af3.ctex"]
 
 [params]
 
