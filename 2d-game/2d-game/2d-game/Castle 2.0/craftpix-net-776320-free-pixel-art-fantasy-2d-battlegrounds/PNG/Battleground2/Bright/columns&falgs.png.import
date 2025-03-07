@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://blqjrs36yfrm3"
-path="res://.godot/imported/columns&falgs.png-d9b4cfa54d5fd983e7d2387809aab978.ctex"
+path="res://.godot/imported/columns&falgs.png-a853e35c35466ae3a23f686361b6e9ba.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2d-game/2d-game/Castle 2.0/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground2/Bright/columns&falgs.png"
-dest_files=["res://.godot/imported/columns&falgs.png-d9b4cfa54d5fd983e7d2387809aab978.ctex"]
+source_file="res://2D-Game/2d-game/Castle 2.0/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground2/Bright/columns&falgs.png"
+dest_files=["res://.godot/imported/columns&falgs.png-a853e35c35466ae3a23f686361b6e9ba.ctex"]
 
 [params]
 
