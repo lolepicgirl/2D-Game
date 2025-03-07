@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bhmecfxhp3sdt"
-path="res://.godot/imported/tree.png-bbed77029b0d66d2b3543c006e588fa0.ctex"
+path="res://.godot/imported/tree.png-4df684eeac17418cec79edc877070c2d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2D-Game/2d-game/Castle Tile Set/100/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground4/Bright/tree.png"
-dest_files=["res://.godot/imported/tree.png-bbed77029b0d66d2b3543c006e588fa0.ctex"]
+source_file="res://2d-game/2d-game/Castle Tile Set/100/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground4/Bright/tree.png"
+dest_files=["res://.godot/imported/tree.png-4df684eeac17418cec79edc877070c2d.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cjyi34lrvnn5k"
-path="res://.godot/imported/lianas.png-b077dd3c8bda478c04c346c994de4582.ctex"
+path="res://.godot/imported/lianas.png-ce7718f1227169a37cebb43c240d5876.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2D-Game/2d-game/Castle Tile Set/100/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground3/Bright/lianas.png"
-dest_files=["res://.godot/imported/lianas.png-b077dd3c8bda478c04c346c994de4582.ctex"]
+source_file="res://2d-game/2d-game/Castle Tile Set/100/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground3/Bright/lianas.png"
+dest_files=["res://.godot/imported/lianas.png-ce7718f1227169a37cebb43c240d5876.ctex"]
 
 [params]
 
