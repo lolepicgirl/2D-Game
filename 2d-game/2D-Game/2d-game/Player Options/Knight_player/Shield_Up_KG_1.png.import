@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b667hoqen8spg"
-path="res://.godot/imported/Shield_Up_KG_1.png-567f1e3cebd88089d56ca755e67aad1e.ctex"
+path="res://.godot/imported/Shield_Up_KG_1.png-2d190e5c2899e4f21b6707cf6639655a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2d-game/2d-game/Player Options/Knight_player/Shield_Up_KG_1.png"
-dest_files=["res://.godot/imported/Shield_Up_KG_1.png-567f1e3cebd88089d56ca755e67aad1e.ctex"]
+source_file="res://2D-Game/2d-game/Player Options/Knight_player/Shield_Up_KG_1.png"
+dest_files=["res://.godot/imported/Shield_Up_KG_1.png-2d190e5c2899e4f21b6707cf6639655a.ctex"]
 
 [params]
 

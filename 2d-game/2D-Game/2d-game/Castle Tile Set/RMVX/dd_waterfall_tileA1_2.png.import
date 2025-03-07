@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4clyn6bpvvab"
-path="res://.godot/imported/dd_waterfall_tileA1_2.png-f70dffe4f1259563d97612c674b4cb63.ctex"
+path="res://.godot/imported/dd_waterfall_tileA1_2.png-63b787fba5ebb72dea11d617199c96be.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2d-game/2d-game/Castle Tile Set/RMVX/dd_waterfall_tileA1_2.png"
-dest_files=["res://.godot/imported/dd_waterfall_tileA1_2.png-f70dffe4f1259563d97612c674b4cb63.ctex"]
+source_file="res://2D-Game/2d-game/Castle Tile Set/RMVX/dd_waterfall_tileA1_2.png"
+dest_files=["res://.godot/imported/dd_waterfall_tileA1_2.png-63b787fba5ebb72dea11d617199c96be.ctex"]
 
 [params]
 
