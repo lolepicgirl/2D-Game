@@ -50618,7 +50618,7 @@ sources/0 = SubResource("TileSetAtlasSource_0lkps")
 sources/1 = SubResource("TileSetAtlasSource_1lnn5")
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dmt56"]
-size = Vector2(694, 11)
+size = Vector2(1140, 11)
 
 [node name="Node2D" type="Node2D"]
 
@@ -50686,7 +50686,7 @@ position = Vector2(19, 539)
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(354, 494.5)
+position = Vector2(581, 486)
 shape = SubResource("RectangleShape2D_dmt56")
 
 [node name="portal" parent="." instance=ExtResource("16_3f6jq")]
