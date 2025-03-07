@@ -14,5 +14,10 @@ func _process(_delta):  # Prefix unused parameter with an underscore
 	if Input.is_action_pressed("ui_down"):
 		direction.y += 1
 
+	if direction == Vector2.ZERO: 
+		$AnimatedSprite2D.play("default")
+	else:
+		$AnimatedSprite2D.play("walking")
+
 	velocity = direction.normalized() * SPEED
 	move_and_slide()
