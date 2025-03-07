@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d3fva60xb8vkh"
-path="res://.godot/imported/Drinking_KG_1.png-3e2f809f56be7172da60938a339aafc4.ctex"
+path="res://.godot/imported/Drinking_KG_1.png-16d324a1b16789581b2c09f5559c49ec.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2d-game/2d-game/Player Options/Knight_player/Drinking_KG_1.png"
-dest_files=["res://.godot/imported/Drinking_KG_1.png-3e2f809f56be7172da60938a339aafc4.ctex"]
+source_file="res://2D-Game/2d-game/Player Options/Knight_player/Drinking_KG_1.png"
+dest_files=["res://.godot/imported/Drinking_KG_1.png-16d324a1b16789581b2c09f5559c49ec.ctex"]
 
 [params]
 

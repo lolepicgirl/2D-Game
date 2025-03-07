@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://s2riq5dqo0fb"
-path="res://.godot/imported/hills&trees.png-92333d5c2e38f898b7553bd750cecb33.ctex"
+path="res://.godot/imported/hills&trees.png-892ff831549f4d2d2cc0e58b61d1ff96.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2d-game/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground1/Bright/hills&trees.png"
-dest_files=["res://.godot/imported/hills&trees.png-92333d5c2e38f898b7553bd750cecb33.ctex"]
+source_file="res://2D-Game/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground1/Bright/hills&trees.png"
+dest_files=["res://.godot/imported/hills&trees.png-892ff831549f4d2d2cc0e58b61d1ff96.ctex"]
 
 [params]
 
