@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://kadf4xph2lh6"]
+[gd_scene load_steps=7 format=3 uid="uid://kadf4xph2lh6"]
 
-[ext_resource type="Texture2D" uid="uid://d28jbrtxfm04i" path="res://2D-Game/2d-game/dark_castle_2_visual_novel_backgrounds/Dark Castle (10).jpg" id="1_agawe"]
-[ext_resource type="AudioStream" uid="uid://bv1cuepb2sjue" path="res://2D-Game/2d-game/horror-ambience-3-303646.mp3" id="3_sjwdo"]
-[ext_resource type="FontFile" uid="uid://bpx8gfusmvj1r" path="res://2D-Game/2d-game/169-background-images/another_danger/ghastly_panic/Ghastly Panic.ttf" id="3_t56y1"]
+[ext_resource type="Texture2D" uid="uid://d28jbrtxfm04i" path="res://2d-game/2d-game/dark_castle_2_visual_novel_backgrounds/Dark Castle (10).jpg" id="1_agawe"]
+[ext_resource type="Script" path="res://2d-game/2d-game/control.gd" id="2_bbcvu"]
+[ext_resource type="AudioStream" uid="uid://bv1cuepb2sjue" path="res://2d-game/2d-game/horror-ambience-3-303646.mp3" id="3_sjwdo"]
+[ext_resource type="FontFile" uid="uid://bpx8gfusmvj1r" path="res://2d-game/2d-game/169-background-images/another_danger/ghastly_panic/Ghastly Panic.ttf" id="3_t56y1"]
 [ext_resource type="Script" path="res://2D-Game/2d-game/audio_stream_player_2d.gd" id="4_3aenb"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_kx8ny"]
@@ -27,6 +28,7 @@ offset_left = -21.0
 offset_top = -1.0
 offset_right = 419.0
 offset_bottom = 333.0
+script = ExtResource("2_bbcvu")
 
 [node name="Label" type="Label" parent="Control"]
 layout_mode = 1
@@ -45,7 +47,7 @@ text = "Deadlight
 "
 label_settings = SubResource("LabelSettings_kx8ny")
 
-[node name="Button" type="Button" parent="Control/Label"]
+[node name="Start Game" type="Button" parent="Control/Label"]
 layout_mode = 0
 offset_left = 209.0
 offset_top = 388.0
@@ -53,7 +55,7 @@ offset_right = 383.0
 offset_bottom = 449.0
 text = "Start Game"
 
-[node name="Button2" type="Button" parent="Control/Label"]
+[node name="How To Play" type="Button" parent="Control/Label"]
 layout_mode = 0
 offset_left = 211.0
 offset_top = 478.0
@@ -73,5 +75,5 @@ stream = ExtResource("3_sjwdo")
 autoplay = true
 script = ExtResource("4_3aenb")
 
-[connection signal="pressed" from="Control/Label/Button" to="Control" method="_on_button_pressed"]
-[connection signal="pressed" from="Control/Label/Button2" to="Control" method="_on_button_2_pressed"]
+[connection signal="pressed" from="Control/Label/Start Game" to="Control" method="_on_start_game_pressed"]
+[connection signal="pressed" from="Control/Label/How To Play" to="Control" method="_on_how_to_play_pressed"]
