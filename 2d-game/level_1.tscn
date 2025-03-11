@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://cy6o2aj4p0gt"]
+[gd_scene load_steps=5 format=3 uid="uid://cy6o2aj4p0gt"]
 
 [ext_resource type="Texture2D" uid="uid://2en824v0g50h" path="res://2D-Game/2d-game/Castle 2.0/castle-Sheet.png" id="1_5wnlm"]
+[ext_resource type="PackedScene" uid="uid://ch422o3yt01qe" path="res://player.tscn" id="2_hi6ak"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ag720"]
 texture = ExtResource("1_5wnlm")
@@ -1419,3 +1420,8 @@ sources/0 = SubResource("TileSetAtlasSource_ag720")
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_8m77h")
 format = 2
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="CharacterBody2D" parent="Node2D" instance=ExtResource("2_hi6ak")]
+position = Vector2(18, 542)
