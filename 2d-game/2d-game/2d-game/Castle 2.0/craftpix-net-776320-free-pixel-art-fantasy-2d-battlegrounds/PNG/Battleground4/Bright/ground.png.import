@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c4scxs1nyhflk"
-path="res://.godot/imported/ground.png-45b3002d92624d0fa3d9df8032fa8bce.ctex"
+path="res://.godot/imported/ground.png-72fcdb00cc584b3a81f8c0c694285d92.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2D-Game/2d-game/Castle 2.0/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground4/Bright/ground.png"
-dest_files=["res://.godot/imported/ground.png-45b3002d92624d0fa3d9df8032fa8bce.ctex"]
+source_file="res://2d-game/2d-game/Castle 2.0/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground4/Bright/ground.png"
+dest_files=["res://.godot/imported/ground.png-72fcdb00cc584b3a81f8c0c694285d92.ctex"]
 
 [params]
 
