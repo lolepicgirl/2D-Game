@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bryhtxq8bsrwd"
-path="res://.godot/imported/Crouching_Idle_KG_1.png-7a2453d87697f31efc808e9c8d8fc246.ctex"
+path="res://.godot/imported/Crouching_Idle_KG_1.png-82c4ac64832b4ba46b04a54a71770c2b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2D-Game/2d-game/Player Options/Knight_player/Crouching_Idle_KG_1.png"
-dest_files=["res://.godot/imported/Crouching_Idle_KG_1.png-7a2453d87697f31efc808e9c8d8fc246.ctex"]
+source_file="res://2d-game/2d-game/Player Options/Knight_player/Crouching_Idle_KG_1.png"
+dest_files=["res://.godot/imported/Crouching_Idle_KG_1.png-82c4ac64832b4ba46b04a54a71770c2b.ctex"]
 
 [params]
 
