@@ -1,3 +1,8 @@
-[gd_scene format=3 uid="uid://sb50bhkem68b"]
+[gd_scene load_steps=2 format=3 uid="uid://sb50bhkem68b"]
+
+[sub_resource type="TileSet" id="TileSet_tsenq"]
 
 [node name="Node2D" type="Node2D"]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+tile_set = SubResource("TileSet_tsenq")
