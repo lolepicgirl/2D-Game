@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dxi3uh708rnar"
-path="res://.godot/imported/crypt.png-5701fc54c309c5dd20d9210d594334f2.ctex"
+path="res://.godot/imported/crypt.png-7d6c73aff488871bdf12d01776251f12.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2d-game/2d-game/Castle 2.0/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground4/Bright/crypt.png"
-dest_files=["res://.godot/imported/crypt.png-5701fc54c309c5dd20d9210d594334f2.ctex"]
+source_file="res://2D-Game/2d-game/Castle 2.0/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground4/Bright/crypt.png"
+dest_files=["res://.godot/imported/crypt.png-7d6c73aff488871bdf12d01776251f12.ctex"]
 
 [params]
 
