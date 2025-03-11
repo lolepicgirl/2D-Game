@@ -13,16 +13,10 @@
 [ext_resource type="Texture2D" uid="uid://c4scxs1nyhflk" path="res://2D-Game/2d-game/Castle 2.0/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground4/Bright/ground.png" id="11_caynn"]
 [ext_resource type="Texture2D" uid="uid://lie5hqi5hkvs" path="res://2D-Game/2d-game/Castle 2.0/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground4/Bright/wall.png" id="12_vff1e"]
 [ext_resource type="Texture2D" uid="uid://bvaemolv3xge6" path="res://2D-Game/2d-game/Castle 2.0/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground4/Pale/back_trees.png" id="13_bxt5e"]
-<<<<<<< Updated upstream
 [ext_resource type="Texture2D" uid="uid://b3kd8m31tjoqh" path="res://2D-Game/2d-game/Castle Tile Set/RMMV/tf_dd_B_3.png" id="14_xdpo0"]
 [ext_resource type="PackedScene" uid="uid://ch422o3yt01qe" path="res://player.tscn" id="15_h8e1h"]
 [ext_resource type="PackedScene" uid="uid://bsnvk201f7irw" path="res://portal.tscn" id="16_3f6jq"]
 [ext_resource type="PackedScene" uid="uid://sb50bhkem68b" path="res://2D-Game/2d-game/inside castle.tscn" id="17_3a4la"]
-=======
-[ext_resource type="Texture2D" uid="uid://fq0stnx0kjsj" path="res://2D-Game/2d-game/Player Options/Knight_player/Talking_KG.png" id="14_bvvcx"]
-[ext_resource type="Texture2D" uid="uid://b3kd8m31tjoqh" path="res://2D-Game/2d-game/Castle Tile Set/RMMV/tf_dd_B_3.png" id="14_xdpo0"]
-[ext_resource type="Script" path="res://player.gd" id="15_talar"]
->>>>>>> Stashed changes
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gx2pc"]
 texture = ExtResource("1_7g2dm")
