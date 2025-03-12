@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b2fg0qfvevv2d"
-path="res://.godot/imported/Tiles.png-102561e35d19e4ad63cd72b3b285399d.ctex"
+path="res://.godot/imported/Tiles.png-2c63bfbb39ec2330bdd846eec8a1ad43.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2d-game/2d-game/Castle-Hall/Tiles/Tiles.png"
-dest_files=["res://.godot/imported/Tiles.png-102561e35d19e4ad63cd72b3b285399d.ctex"]
+source_file="res://2D-Game/2d-game/Castle-Hall/Tiles/Tiles.png"
+dest_files=["res://.godot/imported/Tiles.png-2c63bfbb39ec2330bdd846eec8a1ad43.ctex"]
 
 [params]
 
