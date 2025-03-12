@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://fgtffbye4ldb"
-path="res://.godot/imported/ruins_bg.png-4ccaf70d1c9694674a0194a89bf18a56.ctex"
+path="res://.godot/imported/ruins_bg.png-723910c4cba89bb4ab9a802d0b28e940.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2D-Game/2d-game/Castle 2.0/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground1/Bright/ruins_bg.png"
-dest_files=["res://.godot/imported/ruins_bg.png-4ccaf70d1c9694674a0194a89bf18a56.ctex"]
+source_file="res://2d-game/2d-game/Castle 2.0/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground1/Bright/ruins_bg.png"
+dest_files=["res://.godot/imported/ruins_bg.png-723910c4cba89bb4ab9a802d0b28e940.ctex"]
 
 [params]
 
