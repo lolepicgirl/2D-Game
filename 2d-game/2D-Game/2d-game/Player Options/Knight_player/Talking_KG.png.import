@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://fq0stnx0kjsj"
-path="res://.godot/imported/Talking_KG.png-24bbcd8c175338176101bdcb24c8850b.ctex"
+path="res://.godot/imported/Talking_KG.png-a5c41ec28020f094ccc7c1621bda34c7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2d-game/2d-game/Player Options/Knight_player/Talking_KG.png"
-dest_files=["res://.godot/imported/Talking_KG.png-24bbcd8c175338176101bdcb24c8850b.ctex"]
+source_file="res://2D-Game/2d-game/Player Options/Knight_player/Talking_KG.png"
+dest_files=["res://.godot/imported/Talking_KG.png-a5c41ec28020f094ccc7c1621bda34c7.ctex"]
 
 [params]
 

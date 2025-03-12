@@ -1,8 +1,8 @@
 [gd_scene load_steps=17 format=3 uid="uid://ch422o3yt01qe"]
 
 [ext_resource type="Script" path="res://player.gd" id="2_4dgaj"]
-[ext_resource type="Texture2D" uid="uid://cgub2lp0odw42" path="res://2d-game/2d-game/Player Options/Knight_player/Idle_KG_1.png" id="2_jy2ip"]
-[ext_resource type="Texture2D" uid="uid://csoajftys0abk" path="res://2d-game/2d-game/Player Options/Knight_player/Walking_KG_1.png" id="3_jjaal"]
+[ext_resource type="Texture2D" uid="uid://cgub2lp0odw42" path="res://2D-Game/2d-game/Player Options/Knight_player/Idle_KG_1.png" id="2_jy2ip"]
+[ext_resource type="Texture2D" uid="uid://csoajftys0abk" path="res://2D-Game/2d-game/Player Options/Knight_player/Walking_KG_1.png" id="3_jjaal"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_p441c"]
 radius = 15.8391

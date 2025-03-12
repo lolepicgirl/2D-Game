@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cogu34o733wm1"
-path="res://.godot/imported/dragon.png-e325a530243bf709a9cd42916d5cd728.ctex"
+path="res://.godot/imported/dragon.png-51aa11e311bc75a096444709a61539c2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2d-game/2d-game/Castle Tile Set/100/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground2/Bright/dragon.png"
-dest_files=["res://.godot/imported/dragon.png-e325a530243bf709a9cd42916d5cd728.ctex"]
+source_file="res://2D-Game/2d-game/Castle Tile Set/100/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground2/Bright/dragon.png"
+dest_files=["res://.godot/imported/dragon.png-51aa11e311bc75a096444709a61539c2.ctex"]
 
 [params]
 
