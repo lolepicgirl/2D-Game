@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bf5gb3sx4rl7e"
-path="res://.godot/imported/Rolling_KG_1.png-f8b6a7043e2ff9d16524a2038823ca23.ctex"
+path="res://.godot/imported/Rolling_KG_1.png-67efa3eea5d9393cd1edec371294dcc2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2d-game/2d-game/Player Options/Knight_player/Rolling_KG_1.png"
-dest_files=["res://.godot/imported/Rolling_KG_1.png-f8b6a7043e2ff9d16524a2038823ca23.ctex"]
+source_file="res://2D-Game/2d-game/Player Options/Knight_player/Rolling_KG_1.png"
+dest_files=["res://.godot/imported/Rolling_KG_1.png-67efa3eea5d9393cd1edec371294dcc2.ctex"]
 
 [params]
 
