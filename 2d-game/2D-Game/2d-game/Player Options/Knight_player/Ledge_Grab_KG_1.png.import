@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4jeso3orueyd"
-path="res://.godot/imported/Ledge_Grab_KG_1.png-599f8f66c42cd3d6b673aa02c1d86279.ctex"
+path="res://.godot/imported/Ledge_Grab_KG_1.png-1f9d975a6897c021d83dab623b8348c7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2D-Game/2d-game/Player Options/Knight_player/Ledge_Grab_KG_1.png"
-dest_files=["res://.godot/imported/Ledge_Grab_KG_1.png-599f8f66c42cd3d6b673aa02c1d86279.ctex"]
+source_file="res://2d-game/2d-game/Player Options/Knight_player/Ledge_Grab_KG_1.png"
+dest_files=["res://.godot/imported/Ledge_Grab_KG_1.png-1f9d975a6897c021d83dab623b8348c7.ctex"]
 
 [params]
 

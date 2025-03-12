@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b44pjffmg5fks"
-path="res://.godot/imported/Wallside_KG_1.png-627296fbd5d3a446149905cf4e1e9026.ctex"
+path="res://.godot/imported/Wallside_KG_1.png-439e761169846e798977ec48e4dfacdc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2D-Game/2d-game/Player Options/Knight_player/Wallside_KG_1.png"
-dest_files=["res://.godot/imported/Wallside_KG_1.png-627296fbd5d3a446149905cf4e1e9026.ctex"]
+source_file="res://2d-game/2d-game/Player Options/Knight_player/Wallside_KG_1.png"
+dest_files=["res://.godot/imported/Wallside_KG_1.png-439e761169846e798977ec48e4dfacdc.ctex"]
 
 [params]
 
