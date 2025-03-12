@@ -1340,6 +1340,16 @@ tile_set = SubResource("TileSet_tsenq")
 [node name="CharacterBody2D" parent="." instance=ExtResource("13_82uu2")]
 position = Vector2(16, 610)
 
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="CharacterBody2D"]
+[node name="StaticBody2D" type="StaticBody2D" parent="CharacterBody2D"]
+
+[node name="Floor1" type="CollisionShape2D" parent="CharacterBody2D"]
 position = Vector2(585, 45)
+shape = SubResource("RectangleShape2D_8pw6p")
+
+[node name="Floor2" type="CollisionShape2D" parent="CharacterBody2D"]
+position = Vector2(585, -163)
+shape = SubResource("RectangleShape2D_8pw6p")
+
+[node name="Floor3" type="CollisionShape2D" parent="CharacterBody2D"]
+position = Vector2(585, -377)
 shape = SubResource("RectangleShape2D_8pw6p")
