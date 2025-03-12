@@ -1,4 +1,4 @@
-[gd_scene load_steps=33 format=4 uid="uid://sb50bhkem68b"]
+[gd_scene load_steps=34 format=4 uid="uid://sb50bhkem68b"]
 
 [ext_resource type="Texture2D" uid="uid://6s40ghagysjx" path="res://Dark_Castle_Interior_pixelart_tileset/walls.png" id="1_to1lq"]
 [ext_resource type="Texture2D" uid="uid://78we0s8c8x21" path="res://Dark_Castle_Interior_pixelart_tileset/horns.png" id="2_qhdt5"]
@@ -1301,6 +1301,9 @@ sources/18 = SubResource("TileSetAtlasSource_hbs7a")
 sources/1 = SubResource("TileSetAtlasSource_vsj4u")
 sources/9 = SubResource("TileSetAtlasSource_nukyq")
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8pw6p"]
+size = Vector2(1200, 20)
+
 [node name="Node2D" type="Node2D"]
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
@@ -1329,3 +1332,7 @@ tile_set = SubResource("TileSet_tsenq")
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("13_82uu2")]
 position = Vector2(16, 610)
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="CharacterBody2D"]
+position = Vector2(585, 45)
+shape = SubResource("RectangleShape2D_8pw6p")
