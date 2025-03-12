@@ -51931,7 +51931,7 @@ _bundled = {
 "version": 3
 }
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D2" type="Node2D"]
 
 [node name="Rain Particles" type="CPUParticles2D" parent="."]
 amount = 700
