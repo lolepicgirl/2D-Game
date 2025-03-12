@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dyetnclp568l7"
-path="res://.godot/imported/ladders_KG_1.png-15f667ffd0da4748570b2bab13b4c006.ctex"
+path="res://.godot/imported/ladders_KG_1.png-2f24d8e6a94f531ecba689e4c06a925a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2D-Game/2d-game/Player Options/Knight_player/ladders_KG_1.png"
-dest_files=["res://.godot/imported/ladders_KG_1.png-15f667ffd0da4748570b2bab13b4c006.ctex"]
+source_file="res://2d-game/2d-game/Player Options/Knight_player/ladders_KG_1.png"
+dest_files=["res://.godot/imported/ladders_KG_1.png-2f24d8e6a94f531ecba689e4c06a925a.ctex"]
 
 [params]
 

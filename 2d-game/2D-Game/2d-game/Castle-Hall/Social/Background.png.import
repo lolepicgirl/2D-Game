@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dltt0pc1b8rxu"
-path="res://.godot/imported/Background.png-5aeb06451d53dd74fe385495e8047d0c.ctex"
+path="res://.godot/imported/Background.png-143b2926e7ef17b26fef42c3445eada0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2D-Game/2d-game/Castle-Hall/Social/Background.png"
-dest_files=["res://.godot/imported/Background.png-5aeb06451d53dd74fe385495e8047d0c.ctex"]
+source_file="res://2d-game/2d-game/Castle-Hall/Social/Background.png"
+dest_files=["res://.godot/imported/Background.png-143b2926e7ef17b26fef42c3445eada0.ctex"]
 
 [params]
 

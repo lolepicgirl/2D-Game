@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c1bw7gs7qao6c"
-path="res://.godot/imported/fireflys.png-40b38669536ba26a1cc6dc311be3383d.ctex"
+path="res://.godot/imported/fireflys.png-0ee585e810544be6649b1f739f18e806.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2D-Game/2d-game/Castle Tile Set/100/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground3/Pale/fireflys.png"
-dest_files=["res://.godot/imported/fireflys.png-40b38669536ba26a1cc6dc311be3383d.ctex"]
+source_file="res://2d-game/2d-game/Castle Tile Set/100/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground3/Pale/fireflys.png"
+dest_files=["res://.godot/imported/fireflys.png-0ee585e810544be6649b1f739f18e806.ctex"]
 
 [params]
 

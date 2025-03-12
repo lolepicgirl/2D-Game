@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdg1x474cj658"
-path="res://.godot/imported/grass&road.png-d1592a0b479a9bae9e3eef13a717db1e.ctex"
+path="res://.godot/imported/grass&road.png-5a2f8c46d8853ff6fcd0ec1ba320e73d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2D-Game/2d-game/Castle 2.0/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground3/Pale/grass&road.png"
-dest_files=["res://.godot/imported/grass&road.png-d1592a0b479a9bae9e3eef13a717db1e.ctex"]
+source_file="res://2d-game/2d-game/Castle 2.0/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground3/Pale/grass&road.png"
+dest_files=["res://.godot/imported/grass&road.png-5a2f8c46d8853ff6fcd0ec1ba320e73d.ctex"]
 
 [params]
 
