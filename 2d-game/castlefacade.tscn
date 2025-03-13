@@ -1,4 +1,4 @@
-[gd_scene load_steps=74 format=4 uid="uid://sem25x7o8b8q"]
+[gd_scene load_steps=75 format=4 uid="uid://sem25x7o8b8q"]
 
 [ext_resource type="Texture2D" uid="uid://2en824v0g50h" path="res://2d-game/2d-game/Castle 2.0/castle-Sheet.png" id="1_7g2dm"]
 [ext_resource type="Texture2D" uid="uid://bdv47ij8f8fqn" path="res://2d-game/2d-game/Castle Tile Set/100/tf_dd_B_1.png" id="2_kas81"]
@@ -30,6 +30,7 @@
 [ext_resource type="Texture2D" uid="uid://uuqowo2f1woo" path="res://Dark_Castle_Interior_pixelart_tileset/background_walls_2.png" id="28_j5b2j"]
 [ext_resource type="Texture2D" uid="uid://d3xbluef7qai8" path="res://Dark_Castle_Interior_pixelart_tileset/candle_animation.png" id="29_x4ehs"]
 [ext_resource type="Texture2D" uid="uid://whq6mgse2mph" path="res://Dark_Castle_Interior_pixelart_tileset/door_b.png" id="30_4sl0r"]
+[ext_resource type="AudioStream" uid="uid://bv1cuepb2sjue" path="res://2d-game/2d-game/horror-ambience-3-303646.mp3" id="31_ld8w0"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gx2pc"]
 texture = ExtResource("1_7g2dm")
@@ -50631,7 +50632,7 @@ sources/0 = SubResource("TileSetAtlasSource_0lkps")
 sources/1 = SubResource("TileSetAtlasSource_1lnn5")
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dmt56"]
-size = Vector2(688, 11)
+size = Vector2(765, 11)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0pw1g"]
 texture = ExtResource("17_yprrp")
@@ -52001,9 +52002,14 @@ position = Vector2(354, 496)
 shape = SubResource("RectangleShape2D_dmt56")
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(354, 587)
+position = Vector2(367, 616)
 shape = SubResource("RectangleShape2D_dmt56")
 
 [node name="portal" parent="." instance=ExtResource("16_3f6jq")]
 position = Vector2(716, 535)
 nextscene = SubResource("PackedScene_vr6xl")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("31_ld8w0")
+volume_db = 12.539
+autoplay = true
