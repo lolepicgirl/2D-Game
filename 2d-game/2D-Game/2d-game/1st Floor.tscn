@@ -1327,6 +1327,13 @@ tile_set = SubResource("TileSet_tsenq")
 [node name="player" parent="." instance=ExtResource("15_lr2pf")]
 position = Vector2(16, 610)
 
+[node name="Camera2D" type="Camera2D" parent="player"]
+position = Vector2(-1, 0)
+offset = Vector2(140, -68)
+zoom = Vector2(3, 3)
+position_smoothing_enabled = true
+rotation_smoothing_enabled = true
+
 [node name="skeleton" parent="." instance=ExtResource("16_tprm0")]
 position = Vector2(262, 615)
 
