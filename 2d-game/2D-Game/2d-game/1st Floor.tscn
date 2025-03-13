@@ -1,4 +1,4 @@
-[gd_scene load_steps=37 format=4 uid="uid://defrlmjmorrxa"]
+[gd_scene load_steps=38 format=4 uid="uid://defrlmjmorrxa"]
 
 [ext_resource type="Texture2D" uid="uid://6s40ghagysjx" path="res://Dark_Castle_Interior_pixelart_tileset/walls.png" id="1_qupwx"]
 [ext_resource type="Texture2D" uid="uid://78we0s8c8x21" path="res://Dark_Castle_Interior_pixelart_tileset/horns.png" id="2_wfplo"]
@@ -17,6 +17,7 @@
 [ext_resource type="PackedScene" uid="uid://ch422o3yt01qe" path="res://player.tscn" id="15_lr2pf"]
 [ext_resource type="PackedScene" uid="uid://crvv5xmrnfj78" path="res://skeleton.tscn" id="16_tprm0"]
 [ext_resource type="AudioStream" uid="uid://bv1cuepb2sjue" path="res://2d-game/2d-game/horror-ambience-3-303646.mp3" id="17_4ipct"]
+[ext_resource type="PackedScene" uid="uid://bsnvk201f7irw" path="res://portal.tscn" id="18_vhtxu"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0pw1g"]
 texture = ExtResource("1_qupwx")
@@ -1360,6 +1361,9 @@ shape = SubResource("RectangleShape2D_b5cf3")
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D2"]
 position = Vector2(-3, 555)
 shape = SubResource("RectangleShape2D_rvnse")
+
+[node name="portal" parent="." instance=ExtResource("18_vhtxu")]
+position = Vector2(12, 611)
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("17_4ipct")

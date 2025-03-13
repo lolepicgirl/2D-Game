@@ -1,4 +1,4 @@
-[gd_scene load_steps=57 format=4 uid="uid://cmqsya0gcdlsq"]
+[gd_scene load_steps=56 format=4 uid="uid://cmqsya0gcdlsq"]
 
 [ext_resource type="Texture2D" uid="uid://6s40ghagysjx" path="res://Dark_Castle_Interior_pixelart_tileset/walls.png" id="1_4110x"]
 [ext_resource type="Texture2D" uid="uid://78we0s8c8x21" path="res://Dark_Castle_Interior_pixelart_tileset/horns.png" id="2_yryry"]
@@ -17,7 +17,6 @@
 [ext_resource type="Texture2D" uid="uid://bmwd5lwuvjvdh" path="res://Dark_Castle_Interior_pixelart_tileset/gargoyle_2.png" id="15_43cq6"]
 [ext_resource type="PackedScene" uid="uid://ch422o3yt01qe" path="res://player.tscn" id="15_cbod2"]
 [ext_resource type="Texture2D" uid="uid://i8qv2xe4jo6v" path="res://Dark_Castle_Interior_pixelart_tileset/gargoyle_1.png" id="16_osv6m"]
-[ext_resource type="PackedScene" uid="uid://bsnvk201f7irw" path="res://portal.tscn" id="18_3yeer"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bipv4"]
 texture = ExtResource("1_4110x")
@@ -2669,6 +2668,3 @@ position = Vector2(16, 610)
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
 position = Vector2(602.5, 656)
 shape = SubResource("RectangleShape2D_mqdgp")
-
-[node name="portal" parent="." instance=ExtResource("18_3yeer")]
-position = Vector2(21, 408)
