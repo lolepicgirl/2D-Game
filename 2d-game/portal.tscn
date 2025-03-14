@@ -1,16 +1,3 @@
-[gd_scene load_steps=4 format=3 uid="uid://bsnvk201f7irw"]
+[gd_scene format=3 uid="uid://d1rbcvnlceu0o"]
 
-[ext_resource type="Script" path="res://portal.gd" id="1_0nfkl"]
-[ext_resource type="PackedScene" uid="uid://defrlmjmorrxa" path="res://2D-Game/2d-game/1st Floor.tscn" id="2_ufotw"]
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_swqbm"]
-size = Vector2(36, 38)
-
-[node name="portal" type="Area2D"]
-script = ExtResource("1_0nfkl")
-nextscene = ExtResource("2_ufotw")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("RectangleShape2D_swqbm")
-
-[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[node name="Portal" type="Node2D"]

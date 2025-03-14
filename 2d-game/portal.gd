@@ -1,5 +1,5 @@
 extends Area2D
-@export var nextscene : PackedScene
+#@export var nextscene : PackedScene
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -11,6 +11,6 @@ func _process(delta: float) -> void:
 	pass
 
 
-func _on_body_entered(body: Node2D) -> void:
-	get_tree().change_scene_to_file("res://2D-Game/2d-game/1st Floor.tscn")
-	
+#func _on_body_entered(body: Node2D) -> void:
+	#get_tree().change_scene_to_file("res://2D-Game/2d-game/1st Floor.tscn")
+	#
