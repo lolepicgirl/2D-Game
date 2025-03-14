@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://bv1cuepb2sjue"
-path="res://.godot/imported/horror-ambience-3-303646.mp3-187f5c8ec67da4cc5686f8a6f4c9ac3d.mp3str"
+path="res://.godot/imported/horror-ambience-3-303646.mp3-32b5cad8814a7ac2bacfed3f4a6f6d5e.mp3str"
 
 [deps]
 
-source_file="res://2d-game/2d-game/horror-ambience-3-303646.mp3"
-dest_files=["res://.godot/imported/horror-ambience-3-303646.mp3-187f5c8ec67da4cc5686f8a6f4c9ac3d.mp3str"]
+source_file="res://2D-Game/2d-game/horror-ambience-3-303646.mp3"
+dest_files=["res://.godot/imported/horror-ambience-3-303646.mp3-32b5cad8814a7ac2bacfed3f4a6f6d5e.mp3str"]
 
 [params]
 
