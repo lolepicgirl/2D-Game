@@ -1347,10 +1347,10 @@ zoom = Vector2(3, 3)
 position_smoothing_enabled = true
 rotation_smoothing_enabled = true
 
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="player"]
-shape = SubResource("RectangleShape2D_imcvn")
-
 [node name="AttackArea" type="Area2D" parent="player"]
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="player/AttackArea"]
+shape = SubResource("RectangleShape2D_imcvn")
 
 [node name="skeleton" parent="." instance=ExtResource("16_tprm0")]
 position = Vector2(262, 615)
