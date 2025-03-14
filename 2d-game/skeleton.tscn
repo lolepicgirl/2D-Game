@@ -294,9 +294,8 @@ script = ExtResource("1_6fggr")
 position = Vector2(10, -17)
 scale = Vector2(1.17708, 1.23438)
 sprite_frames = SubResource("SpriteFrames_22hk0")
-animation = &"idle"
+animation = &"attack"
 autoplay = "idle"
-frame_progress = 0.831654
 flip_h = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
@@ -305,8 +304,8 @@ shape = SubResource("RectangleShape2D_py5mt")
 
 [node name="Timer" type="Timer" parent="."]
 
-[node name="Area2D" type="Area2D" parent="."]
+[node name="AttackArea" type="Area2D" parent="."]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AttackArea"]
 position = Vector2(8, -6)
 shape = SubResource("RectangleShape2D_1vxjk")
