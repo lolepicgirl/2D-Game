@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dmnxf2mdlpf0n"
-path="res://.godot/imported/graves.png-471a8051a16fbe23d98953e36e70074a.ctex"
+path="res://.godot/imported/graves.png-59132627d9ca84d06613b7e70d7e1cb6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2D-Game/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground4/Pale/graves.png"
-dest_files=["res://.godot/imported/graves.png-471a8051a16fbe23d98953e36e70074a.ctex"]
+source_file="res://2d-game/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground4/Pale/graves.png"
+dest_files=["res://.godot/imported/graves.png-59132627d9ca84d06613b7e70d7e1cb6.ctex"]
 
 [params]
 
