@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cft7t56y2p48f"
-path="res://.godot/imported/Another Danger - Font Cover 3.png-502ef67409772aafab497e0375cda327.ctex"
+path="res://.godot/imported/Another Danger - Font Cover 3.png-0dd546b49e95e1f3d64aca46f0acc26e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2d-game/2d-game/169-background-images/another_danger/Another Danger - Font Cover 3.png"
-dest_files=["res://.godot/imported/Another Danger - Font Cover 3.png-502ef67409772aafab497e0375cda327.ctex"]
+source_file="res://2D-Game/2d-game/169-background-images/another_danger/Another Danger - Font Cover 3.png"
+dest_files=["res://.godot/imported/Another Danger - Font Cover 3.png-0dd546b49e95e1f3d64aca46f0acc26e.ctex"]
 
 [params]
 

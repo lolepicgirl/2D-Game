@@ -1,9 +1,9 @@
 [gd_scene load_steps=43 format=3 uid="uid://crvv5xmrnfj78"]
 
-[ext_resource type="Texture2D" uid="uid://bn7mfjsl80juy" path="res://2d-game/2d-game/Skeletons Set/Skeleton_Sword/Skeleton_White/Skeleton_With_VFX/Skeleton_01_White_Attack1.png" id="1_gtofo"]
-[ext_resource type="Texture2D" uid="uid://wffsxq7uvcck" path="res://2d-game/2d-game/Skeletons Set/Skeleton_Sword/Skeleton_White/Skeleton_With_VFX/Skeleton_01_White_Die.png" id="2_a60ct"]
-[ext_resource type="Texture2D" uid="uid://cbdxgam00ymtg" path="res://2d-game/2d-game/Skeletons Set/Skeleton_Sword/Skeleton_White/Skeleton_With_VFX/Skeleton_01_White_Hurt.png" id="3_jo8sq"]
-[ext_resource type="Texture2D" uid="uid://cvlmvl0pk0we2" path="res://2d-game/2d-game/Skeletons Set/Skeleton_Sword/Skeleton_White/Skeleton_With_VFX/Skeleton_01_White_Idle.png" id="4_f40em"]
+[ext_resource type="Texture2D" uid="uid://bn7mfjsl80juy" path="res://2D-Game/2d-game/Skeletons Set/Skeleton_Sword/Skeleton_White/Skeleton_With_VFX/Skeleton_01_White_Attack1.png" id="1_gtofo"]
+[ext_resource type="Texture2D" uid="uid://wffsxq7uvcck" path="res://2D-Game/2d-game/Skeletons Set/Skeleton_Sword/Skeleton_White/Skeleton_With_VFX/Skeleton_01_White_Die.png" id="2_a60ct"]
+[ext_resource type="Texture2D" uid="uid://cbdxgam00ymtg" path="res://2D-Game/2d-game/Skeletons Set/Skeleton_Sword/Skeleton_White/Skeleton_With_VFX/Skeleton_01_White_Hurt.png" id="3_jo8sq"]
+[ext_resource type="Texture2D" uid="uid://cvlmvl0pk0we2" path="res://2D-Game/2d-game/Skeletons Set/Skeleton_Sword/Skeleton_White/Skeleton_With_VFX/Skeleton_01_White_Idle.png" id="4_f40em"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qpmhd"]
 atlas = ExtResource("1_gtofo")
