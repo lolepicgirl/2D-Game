@@ -1,4 +1,4 @@
-[gd_scene load_steps=43 format=4 uid="uid://defrlmjmorrxa"]
+[gd_scene load_steps=40 format=4 uid="uid://defrlmjmorrxa"]
 
 [ext_resource type="PackedScene" uid="uid://b3hqnki01d6lg" path="res://castleinteriorbkg.tscn" id="1_q64fm"]
 [ext_resource type="Texture2D" uid="uid://6s40ghagysjx" path="res://Dark_Castle_Interior_pixelart_tileset/walls.png" id="1_qupwx"]
@@ -19,10 +19,7 @@
 [ext_resource type="PackedScene" uid="uid://cmqsya0gcdlsq" path="res://2D-Game/2d-game/2nd Floor.tscn" id="15_wu273"]
 [ext_resource type="PackedScene" uid="uid://crvv5xmrnfj78" path="res://skeleton.tscn" id="16_tprm0"]
 [ext_resource type="AudioStream" uid="uid://bv1cuepb2sjue" path="res://2D-Game/2d-game/horror-ambience-3-303646.mp3" id="17_4ipct"]
-[ext_resource type="Script" path="res://skeleton1.gd" id="17_iaevt"]
 [ext_resource type="PackedScene" uid="uid://d1rbcvnlceu0o" path="res://portal.tscn" id="18_vhtxu"]
-[ext_resource type="Script" path="res://skeleton2.gd" id="18_ygbp0"]
-[ext_resource type="Script" path="res://skeleton3.gd" id="19_acx0d"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0pw1g"]
 texture = ExtResource("1_qupwx")
@@ -1311,7 +1308,7 @@ sources/1 = SubResource("TileSetAtlasSource_vsj4u")
 sources/9 = SubResource("TileSetAtlasSource_nukyq")
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_b5cf3"]
-size = Vector2(1214, 25.5)
+size = Vector2(1215, 27.1875)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rvnse"]
 size = Vector2(20, 364)
@@ -1343,21 +1340,18 @@ position_smoothing_enabled = true
 rotation_smoothing_enabled = true
 
 [node name="skeleton" parent="." instance=ExtResource("16_tprm0")]
-position = Vector2(262, 615)
-script = ExtResource("17_iaevt")
+position = Vector2(263, 617)
 
 [node name="skeleton2" parent="." instance=ExtResource("16_tprm0")]
 position = Vector2(583, 618)
-script = ExtResource("18_ygbp0")
 
 [node name="skeleton3" parent="." instance=ExtResource("16_tprm0")]
 position = Vector2(912, 614)
-script = ExtResource("19_acx0d")
 
 [node name="StaticBody2D2" type="StaticBody2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2"]
-position = Vector2(583, 561)
+position = Vector2(582, 566)
 shape = SubResource("RectangleShape2D_b5cf3")
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D2"]
