@@ -1,4 +1,4 @@
-[gd_scene load_steps=43 format=4 uid="uid://defrlmjmorrxa"]
+[gd_scene load_steps=42 format=4 uid="uid://defrlmjmorrxa"]
 
 [ext_resource type="Texture2D" uid="uid://6s40ghagysjx" path="res://Dark_Castle_Interior_pixelart_tileset/walls.png" id="1_qupwx"]
 [ext_resource type="Texture2D" uid="uid://78we0s8c8x21" path="res://Dark_Castle_Interior_pixelart_tileset/horns.png" id="2_wfplo"]
@@ -1309,8 +1309,6 @@ sources/18 = SubResource("TileSetAtlasSource_hbs7a")
 sources/1 = SubResource("TileSetAtlasSource_vsj4u")
 sources/9 = SubResource("TileSetAtlasSource_nukyq")
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_imcvn"]
-
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_b5cf3"]
 size = Vector2(1214, 25.5)
 
@@ -1346,11 +1344,6 @@ offset = Vector2(140, -68)
 zoom = Vector2(3, 3)
 position_smoothing_enabled = true
 rotation_smoothing_enabled = true
-
-[node name="AttackArea" type="Area2D" parent="player"]
-
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="player/AttackArea"]
-shape = SubResource("RectangleShape2D_imcvn")
 
 [node name="skeleton" parent="." instance=ExtResource("16_tprm0")]
 position = Vector2(262, 615)
