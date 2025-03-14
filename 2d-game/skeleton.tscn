@@ -297,3 +297,5 @@ flip_h = true
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(12.25, -7.25)
 shape = SubResource("RectangleShape2D_py5mt")
+
+[node name="Timer" type="Timer" parent="."]
