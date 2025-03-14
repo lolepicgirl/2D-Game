@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bsxsbuwb8xwws"
-path="res://.godot/imported/Dark Castle (36).jpg-832ccd632796f3610388c7f0d76a8e1d.ctex"
+path="res://.godot/imported/Dark Castle (36).jpg-2baff4d179beacdaff957aedabf14c6c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2d-game/2d-game/dark_castle_2_visual_novel_backgrounds/Dark Castle (36).jpg"
-dest_files=["res://.godot/imported/Dark Castle (36).jpg-832ccd632796f3610388c7f0d76a8e1d.ctex"]
+source_file="res://2D-Game/2d-game/dark_castle_2_visual_novel_backgrounds/Dark Castle (36).jpg"
+dest_files=["res://.godot/imported/Dark Castle (36).jpg-2baff4d179beacdaff957aedabf14c6c.ctex"]
 
 [params]
 
