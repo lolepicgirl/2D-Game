@@ -15,7 +15,7 @@
 [ext_resource type="Texture2D" uid="uid://d3xbluef7qai8" path="res://Dark_Castle_Interior_pixelart_tileset/candle_animation.png" id="13_5s7ta"]
 [ext_resource type="Texture2D" uid="uid://whq6mgse2mph" path="res://Dark_Castle_Interior_pixelart_tileset/door_b.png" id="14_8g170"]
 [ext_resource type="PackedScene" uid="uid://ch422o3yt01qe" path="res://player.tscn" id="15_lr2pf"]
-[ext_resource type="PackedScene" uid="uid://cmqsya0gcdlsq" path="res://2d-game/2d-game/2nd Floor.tscn" id="15_wu273"]
+[ext_resource type="PackedScene" uid="uid://cmqsya0gcdlsq" path="res://2D-Game/2d-game/2nd Floor.tscn" id="15_wu273"]
 [ext_resource type="PackedScene" uid="uid://crvv5xmrnfj78" path="res://skeleton.tscn" id="16_tprm0"]
 [ext_resource type="AudioStream" uid="uid://bv1cuepb2sjue" path="res://2D-Game/2d-game/horror-ambience-3-303646.mp3" id="17_4ipct"]
 [ext_resource type="Script" path="res://skeleton1.gd" id="17_iaevt"]
