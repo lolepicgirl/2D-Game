@@ -19,7 +19,7 @@
 [ext_resource type="Texture2D" uid="uid://i8qv2xe4jo6v" path="res://Dark_Castle_Interior_pixelart_tileset/gargoyle_1.png" id="16_osv6m"]
 [ext_resource type="PackedScene" uid="uid://crvv5xmrnfj78" path="res://skeleton.tscn" id="18_6gj23"]
 [ext_resource type="PackedScene" uid="uid://bsnvk201f7irw" path="res://portal.tscn" id="19_j1lvo"]
-[ext_resource type="AudioStream" uid="uid://bv1cuepb2sjue" path="res://2d-game/2d-game/horror-ambience-3-303646.mp3" id="20_766h6"]
+[ext_resource type="AudioStream" uid="uid://bv1cuepb2sjue" path="res://2D-Game/2d-game/horror-ambience-3-303646.mp3" id="20_766h6"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bipv4"]
 texture = ExtResource("1_4110x")

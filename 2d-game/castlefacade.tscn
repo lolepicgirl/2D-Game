@@ -1,4 +1,4 @@
-[gd_scene load_steps=75 format=4 uid="uid://sem25x7o8b8q"]
+[gd_scene load_steps=77 format=4 uid="uid://sem25x7o8b8q"]
 
 [ext_resource type="Texture2D" uid="uid://2en824v0g50h" path="res://2D-Game/2d-game/Castle 2.0/castle-Sheet.png" id="1_7g2dm"]
 [ext_resource type="Texture2D" uid="uid://bdv47ij8f8fqn" path="res://2D-Game/2d-game/Castle Tile Set/100/tf_dd_B_1.png" id="2_kas81"]
@@ -50634,6 +50634,12 @@ sources/1 = SubResource("TileSetAtlasSource_1lnn5")
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dmt56"]
 size = Vector2(765, 11)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_o7pxx"]
+size = Vector2(425, 12)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_aomhs"]
+size = Vector2(264, 12)
+
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0pw1g"]
 texture = ExtResource("17_yprrp")
 0:0/0 = 0
@@ -52004,6 +52010,22 @@ shape = SubResource("RectangleShape2D_dmt56")
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
 position = Vector2(367, 616)
 shape = SubResource("RectangleShape2D_dmt56")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(486.5, 508)
+shape = SubResource("RectangleShape2D_o7pxx")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(565, 520)
+shape = SubResource("RectangleShape2D_aomhs")
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(28, 582)
+shape = SubResource("RectangleShape2D_o7pxx")
+
+[node name="CollisionShape2D6" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(268, 599)
+shape = SubResource("RectangleShape2D_aomhs")
 
 [node name="portal" parent="." instance=ExtResource("16_3f6jq")]
 position = Vector2(716, 535)

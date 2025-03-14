@@ -1,6 +1,6 @@
 [gd_scene load_steps=35 format=4 uid="uid://y63scti8287"]
 
-[ext_resource type="PackedScene" uid="uid://def8xbjkto85f" path="res://castleinteriorbkg.tscn" id="1_gllg7"]
+[ext_resource type="PackedScene" uid="uid://b3hqnki01d6lg" path="res://castleinteriorbkg.tscn" id="1_gllg7"]
 [ext_resource type="Texture2D" uid="uid://6s40ghagysjx" path="res://Dark_Castle_Interior_pixelart_tileset/walls.png" id="2_p35ud"]
 [ext_resource type="Texture2D" uid="uid://78we0s8c8x21" path="res://Dark_Castle_Interior_pixelart_tileset/horns.png" id="3_w0pi6"]
 [ext_resource type="Texture2D" uid="uid://cdo2epi3i2yt3" path="res://Dark_Castle_Interior_pixelart_tileset/statue_1.png" id="4_ik0su"]
