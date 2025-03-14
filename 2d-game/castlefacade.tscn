@@ -50717,7 +50717,7 @@ position = Vector2(268, 599)
 shape = SubResource("RectangleShape2D_aomhs")
 
 [node name="portal" parent="." instance=ExtResource("16_3f6jq")]
-position = Vector2(716, 535)
+position = Vector2(717, 535)
 nextscene = ExtResource("17_5ulap")
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
