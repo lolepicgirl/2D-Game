@@ -1,3 +1,13 @@
-[gd_scene format=3 uid="uid://d1rbcvnlceu0o"]
+[gd_scene load_steps=3 format=3 uid="uid://d1rbcvnlceu0o"]
 
-[node name="Portal" type="Node2D"]
+[ext_resource type="Script" path="res://portal.gd" id="1_t8ion"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_t6061"]
+
+[node name="Portal" type="Area2D"]
+script = ExtResource("1_t8ion")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_t6061")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

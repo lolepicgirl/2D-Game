@@ -285,7 +285,7 @@ size = Vector2(35.5, 61.5)
 
 [node name="skeleton" type="CharacterBody2D"]
 
-[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(10, -17)
 scale = Vector2(1.17708, 1.23438)
 sprite_frames = SubResource("SpriteFrames_22hk0")
