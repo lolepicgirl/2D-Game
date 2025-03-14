@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3 uid="uid://ch422o3yt01qe"]
+[gd_scene load_steps=18 format=3 uid="uid://ch422o3yt01qe"]
 
 [ext_resource type="Script" path="res://player.gd" id="2_4dgaj"]
 [ext_resource type="Texture2D" uid="uid://cgub2lp0odw42" path="res://2D-Game/2d-game/Player Options/Knight_player/Idle_KG_1.png" id="2_jy2ip"]
@@ -94,6 +94,9 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jht0j"]
+size = Vector2(24, 60)
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_nq5ee"]
 size = Vector2(30.7126, 78.4906)
 
@@ -105,6 +108,10 @@ position = Vector2(5, -2)
 sprite_frames = SubResource("SpriteFrames_kb3vb")
 animation = &"walking"
 autoplay = "default"
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(5, 0)
+shape = SubResource("RectangleShape2D_jht0j")
 
 [node name="AttackArea" type="Area2D" parent="."]
 
