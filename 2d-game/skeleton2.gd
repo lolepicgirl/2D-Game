@@ -8,23 +8,26 @@ var attack_range = 50  # Define attack range
 func _process(_delta):
 	var direction = Vector2.ZERO  # No movement by default
 
-	if Input.is_action_pressed("ui_right"):
-		direction.x += 1
-	if Input.is_action_pressed("ui_left"):
-		direction.x -= 1
-	if Input.is_action_pressed("ui_up"):
-		direction.y -= 1
-	if Input.is_action_pressed("ui_down"):
-		direction.y += 1
+@export var speed: float = 100.0  # Movement speed in pixels per second
 
-	if direction == Vector2.ZERO: 
-		$AnimatedSprite2D.play("default")
-	else:
-		$AnimatedSprite2D.play("walking")
+func _ready():
+	start_movement_cycle()
 
-	velocity = direction.normalized() * SPEED
+func start_movement_cycle():
+	while true:
+		
+		velocity.x = speed # Move right
+		await get_tree().create_timer(1.0).timeout # Pause
+		velocity.x = 0
+		await get_tree().create_timer(1.0).timeout # Move left
+		velocity.x = -speed
+		await get_tree().create_timer(1.0).timeout # Pause
+		velocity.x = 0
+		await get_tree().create_timer(1.0).timeout
+
+func _physics_process(delta):
 	move_and_slide()
-
+	
 	# Attack logic
 	if Input.is_action_just_pressed("attack"):
 		attack()
