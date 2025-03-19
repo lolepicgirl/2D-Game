@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://deb1atlfcfpmm"
-path="res://.godot/imported/sky.png-439f0ea0dd721f314cabff85cfd4857a.ctex"
+path="res://.godot/imported/sky.png-a840f7434e14165500bc9308e484d857.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2D-Game/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground3/Bright/sky.png"
-dest_files=["res://.godot/imported/sky.png-439f0ea0dd721f314cabff85cfd4857a.ctex"]
+source_file="res://2d-game/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground3/Bright/sky.png"
+dest_files=["res://.godot/imported/sky.png-a840f7434e14165500bc9308e484d857.ctex"]
 
 [params]
 
