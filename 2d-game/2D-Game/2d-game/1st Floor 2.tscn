@@ -1,4 +1,4 @@
-[gd_scene load_steps=40 format=4 uid="uid://defrlmjmorrxa"]
+[gd_scene load_steps=40 format=4 uid="uid://cgrobtqfunhin"]
 
 [ext_resource type="PackedScene" uid="uid://b3hqnki01d6lg" path="res://castleinteriorbkg.tscn" id="1_q64fm"]
 [ext_resource type="Texture2D" uid="uid://6s40ghagysjx" path="res://Dark_Castle_Interior_pixelart_tileset/walls.png" id="1_qupwx"]

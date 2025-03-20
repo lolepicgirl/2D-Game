@@ -1,8 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://buevjvbo5fvxs"]
-
-[ext_resource type="Texture2D" uid="uid://di4iy6up6t41" path="res://How to.png" id="1_fxw8s"]
-
-[node name="How to play" type="Sprite2D"]
-position = Vector2(576, 334)
-scale = Vector2(0.43097, 0.431619)
-texture = ExtResource("1_fxw8s")

@@ -26,13 +26,14 @@ func _process(delta: float) -> void:
 	if Input.is_action_pressed("ui_down"):
 		direction.y += 1
 
-	# Change animation based on movement
-	if direction == Vector2.ZERO and not is_attacking:
+	# Change animation based on movement and attack state
+	if is_attacking:
+		animated_sprite.play("attack")
+	elif direction == Vector2.ZERO:
 		animated_sprite.play("default")
-	elif not is_attacking:
+	else:
 		animated_sprite.play("walking")
 	
-
 	# Move the character
 	velocity = direction.normalized() * SPEED
 	move_and_slide()
@@ -53,5 +54,4 @@ func attack():
 func _on_AnimationFinished():
 	# Ensure the attack animation has finished
 	if animated_sprite.animation == "attack":
-			is_attacking = true
-			animated_sprite.play("default")
+			is_attacking = false
