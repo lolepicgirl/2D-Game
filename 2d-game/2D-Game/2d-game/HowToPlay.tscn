@@ -1,8 +1,23 @@
-[gd_scene load_steps=2 format=3 uid="uid://4m4sdgggiek0"]
+[gd_scene load_steps=3 format=3 uid="uid://lufu0dqu1pq1"]
 
 [ext_resource type="Texture2D" uid="uid://di4iy6up6t41" path="res://How to.png" id="1_7ge0s"]
 
+[sub_resource type="GDScript" id="GDScript_ir3ke"]
+script/source = "extends Node2D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+"
+
 [node name="HowToPlay" type="Node2D"]
+script = SubResource("GDScript_ir3ke")
 
 [node name="HowTo" type="Sprite2D" parent="."]
 position = Vector2(582.5, 320.75)

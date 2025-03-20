@@ -5,7 +5,7 @@ const GRAVITY = 500 # Adjust gravity strength if needed
 const JUMP_FORCE = -300 # Adjust jump force
 var is_attacking = false # Flag to indicate if the attack animation is playing
 var health = 100 # Character health
-var attack_range = 10
+var attack_range = 50
 
 @onready var attack_area = get_node("AttackArea")  # Reference to the AttackArea node
 @onready var animated_sprite = $AnimatedSprite2D # Reference to the AnimatedSprite2D node
@@ -50,7 +50,6 @@ func _process(delta: float) -> void:
 	# Move the character only if not attacking
 	if not is_attacking:
 			velocity.x = direction.x * SPEED
-			velocity.y = direction.y * SPEED
 			move_and_slide()
 
 	# Attack logic (when the player presses the "attack" button)
