@@ -29,8 +29,13 @@ func _process(delta: float) -> void:
 	# Change animation based on movement
 	if direction == Vector2.ZERO and not is_attacking:
 		animated_sprite.play("default")
-	elif not is_attacking:
-		animated_sprite.play("walking")
+	if is_attacking:
+		animated_sprite.play("attack")
+		
+	else:
+		animated_sprite.play("default")
+	
+	
 
 	# Move the character
 	velocity = direction.normalized() * SPEED
