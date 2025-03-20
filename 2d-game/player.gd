@@ -1,6 +1,8 @@
 extends CharacterBody2D
 
 const SPEED = 100  # Adjust speed if needed
+const GRAVITY = 500 # ADjust gravity strength if needed
+const JUMP_FORCE = -300 # Adjust jump force
 var is_attacking = false # Flag to indicate if the attack animation is playing
 var health = 100 # Character health
 
@@ -14,33 +16,44 @@ func _ready():
 func _process(delta: float) -> void:
 	var direction = Vector2.ZERO  # No movement by default
 
-	# Handle movement inputs
-	if Input.is_action_pressed("ui_right"):
-		direction.x += 1
-		animated_sprite.flip_h = false # Face right
-	if Input.is_action_pressed("ui_left"):
-		direction.x -= 1
-		animated_sprite.flip_h = true # Face left
-	if Input.is_action_pressed("ui_up"):
-		direction.y -= 1
-	if Input.is_action_pressed("ui_down"):
-		direction.y += 1
+	# Handle movement inputs only if not attacking
+	if not is_attacking:
+		if Input.is_action_pressed("ui_right"):
+			direction.x += 1
+			animated_sprite.flip_h = false # Face right
+		if Input.is_action_pressed("ui_left"):
+			direction.x -= 1
+			animated_sprite.flip_h = true # Face left
+		
+		# Handle Jump
+		if Input.is_action_just_pressed("ui_up") and is_on_floor():
+			jump()
+		
+	# Apply gravity
+	if not is_on_floor():
+		velocity.y += GRAVITY * delta
 
 	# Change animation based on movement and attack state
 	if is_attacking:
 		animated_sprite.play("attack")
+	elif not is_on_floor():
+		animated_sprite.play("jumping")
 	elif direction == Vector2.ZERO:
 		animated_sprite.play("default")
 	else:
 		animated_sprite.play("walking")
 	
-	# Move the character
-	velocity = direction.normalized() * SPEED
-	move_and_slide()
+	# Move the character only if not attacking
+	if not is_attacking:
+			velocity.x = direction.x * SPEED
+			move_and_slide()
 
 	# Attack logic (when the player presses the "attack" button)
 	if Input.is_action_just_pressed("ui_select") and not is_attacking: # "ui_select" is mapped to the spacebar
 		attack()
+
+func jump():
+	velocity.y = JUMP_FORCE # Apply jump force
 
 func attack():
 	is_attacking = true

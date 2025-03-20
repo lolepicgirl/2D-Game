@@ -1364,10 +1364,6 @@ tile_set = SubResource("TileSet_tsenq")
 position = Vector2(589, 446)
 shape = SubResource("RectangleShape2D_b8jsn")
 
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="2nd floor/StaticBody2D2"]
-position = Vector2(595, 350)
-shape = SubResource("RectangleShape2D_b8jsn")
-
 [node name="skeleton2" parent="2nd floor" instance=ExtResource("18_6gj23")]
 position = Vector2(921, 408)
 

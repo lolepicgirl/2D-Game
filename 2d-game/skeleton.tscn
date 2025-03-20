@@ -294,7 +294,7 @@ script = ExtResource("1_6fggr")
 position = Vector2(10, -17)
 scale = Vector2(1.17708, 1.23438)
 sprite_frames = SubResource("SpriteFrames_22hk0")
-animation = &"attack"
+animation = &"idle"
 autoplay = "idle"
 flip_h = true
 
