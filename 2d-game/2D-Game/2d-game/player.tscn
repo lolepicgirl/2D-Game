@@ -1,12 +1,15 @@
-[gd_scene load_steps=37 format=3 uid="uid://ch422o3yt01qe"]
+[gd_scene load_steps=45 format=3 uid="uid://ch422o3yt01qe"]
 
 [ext_resource type="Script" path="res://2D-Game/2d-game/player.gd" id="2_4dgaj"]
 [ext_resource type="Texture2D" uid="uid://cgub2lp0odw42" path="res://2D-Game/2d-game/Player Options/Knight_player/Idle_KG_1.png" id="2_jy2ip"]
 [ext_resource type="Texture2D" uid="uid://ci7uj30lj5rj3" path="res://2D-Game/2d-game/Player Options/Attack_KG_1.png" id="2_x4sxy"]
 [ext_resource type="Texture2D" uid="uid://bryhtxq8bsrwd" path="res://2D-Game/2d-game/Player Options/Knight_player/Crouching_Idle_KG_1.png" id="3_dtl2d"]
 [ext_resource type="Texture2D" uid="uid://csoajftys0abk" path="res://2D-Game/2d-game/Player Options/Knight_player/Walking_KG_1.png" id="3_jjaal"]
+[ext_resource type="Texture2D" uid="uid://dn1a2lynxehtf" path="res://2D-Game/2d-game/Player Options/Knight_player/Dying_KG_1.png" id="4_imfr3"]
 [ext_resource type="AudioStream" uid="uid://ds27ua1v1htod" path="res://2D-Game/2d-game/Swoosh.mp3" id="5_1d0ih"]
 [ext_resource type="Texture2D" uid="uid://cd6sjaauxg3em" path="res://2D-Game/2d-game/Player Options/Knight_player/Jump_KG_1.png" id="5_8uwjr"]
+[ext_resource type="AudioStream" uid="uid://b7kd2huxtf4ml" path="res://2D-Game/2d-game/ahahahah.mp3" id="8_cqwea"]
+[ext_resource type="AudioStream" uid="uid://cfmtdyqsidj6" path="res://2D-Game/2d-game/owwie.wav" id="9_4ruif"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_b5uo5"]
 atlas = ExtResource("2_x4sxy")
@@ -43,6 +46,26 @@ region = Rect2(100, 0, 100, 64)
 [sub_resource type="AtlasTexture" id="AtlasTexture_wbcv7"]
 atlas = ExtResource("3_dtl2d")
 region = Rect2(200, 0, 100, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fut2h"]
+atlas = ExtResource("4_imfr3")
+region = Rect2(0, 0, 100, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rp53d"]
+atlas = ExtResource("4_imfr3")
+region = Rect2(100, 0, 100, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1bloo"]
+atlas = ExtResource("4_imfr3")
+region = Rect2(200, 0, 100, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s4p75"]
+atlas = ExtResource("4_imfr3")
+region = Rect2(300, 0, 100, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_krsh5"]
+atlas = ExtResource("4_imfr3")
+region = Rect2(400, 0, 100, 64)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_tn1am"]
 atlas = ExtResource("2_jy2ip")
@@ -153,6 +176,26 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+"texture": SubResource("AtlasTexture_fut2h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rp53d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1bloo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s4p75")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_krsh5")
+}],
+"loop": true,
+"name": &"death",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_tn1am")
 }, {
 "duration": 1.0,
@@ -250,5 +293,11 @@ position = Vector2(7, -1.5)
 scale = Vector2(0.820755, 0.828125)
 shape = SubResource("RectangleShape2D_nq5ee")
 
-[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+[node name="AttackSound" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("5_1d0ih")
+
+[node name="DeathSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("8_cqwea")
+
+[node name="HurtSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("9_4ruif")

@@ -1,10 +1,14 @@
-[gd_scene load_steps=45 format=3 uid="uid://crvv5xmrnfj78"]
+[gd_scene load_steps=59 format=3 uid="uid://crvv5xmrnfj78"]
 
 [ext_resource type="Script" path="res://2D-Game/2d-game/skeleton.gd" id="1_6fggr"]
 [ext_resource type="Texture2D" uid="uid://bn7mfjsl80juy" path="res://2D-Game/2d-game/Skeletons Set/Skeleton_Sword/Skeleton_White/Skeleton_With_VFX/Skeleton_01_White_Attack1.png" id="1_gtofo"]
 [ext_resource type="Texture2D" uid="uid://wffsxq7uvcck" path="res://2D-Game/2d-game/Skeletons Set/Skeleton_Sword/Skeleton_White/Skeleton_With_VFX/Skeleton_01_White_Die.png" id="2_a60ct"]
 [ext_resource type="Texture2D" uid="uid://cbdxgam00ymtg" path="res://2D-Game/2d-game/Skeletons Set/Skeleton_Sword/Skeleton_White/Skeleton_With_VFX/Skeleton_01_White_Hurt.png" id="3_jo8sq"]
 [ext_resource type="Texture2D" uid="uid://cvlmvl0pk0we2" path="res://2D-Game/2d-game/Skeletons Set/Skeleton_Sword/Skeleton_White/Skeleton_With_VFX/Skeleton_01_White_Idle.png" id="4_f40em"]
+[ext_resource type="AudioStream" uid="uid://ldjxp1vyccvv" path="res://2D-Game/2d-game/Enemy Kill.mp3" id="6_bgotx"]
+[ext_resource type="Texture2D" uid="uid://cl3bnb3mnka4k" path="res://2D-Game/2d-game/Skeletons Set/Skeleton_Sword/Skeleton_White/Skeleton_With_VFX/Skeleton_01_White_Walk.png" id="6_nuihs"]
+[ext_resource type="AudioStream" uid="uid://ukgrmyjkrh7l" path="res://2D-Game/2d-game/Skelly Hurt.wav" id="7_52oxe"]
+[ext_resource type="AudioStream" uid="uid://ds27ua1v1htod" path="res://2D-Game/2d-game/Swoosh.mp3" id="8_divkb"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qpmhd"]
 atlas = ExtResource("1_gtofo")
@@ -150,6 +154,46 @@ region = Rect2(576, 0, 96, 64)
 atlas = ExtResource("4_f40em")
 region = Rect2(672, 0, 96, 64)
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_erb3q"]
+atlas = ExtResource("6_nuihs")
+region = Rect2(0, 0, 96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ha2ey"]
+atlas = ExtResource("6_nuihs")
+region = Rect2(96, 0, 96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bxsjn"]
+atlas = ExtResource("6_nuihs")
+region = Rect2(192, 0, 96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c4337"]
+atlas = ExtResource("6_nuihs")
+region = Rect2(288, 0, 96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xqeco"]
+atlas = ExtResource("6_nuihs")
+region = Rect2(384, 0, 96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hfhdr"]
+atlas = ExtResource("6_nuihs")
+region = Rect2(480, 0, 96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m0txw"]
+atlas = ExtResource("6_nuihs")
+region = Rect2(576, 0, 96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_44chm"]
+atlas = ExtResource("6_nuihs")
+region = Rect2(672, 0, 96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b6t1b"]
+atlas = ExtResource("6_nuihs")
+region = Rect2(768, 0, 96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5ad15"]
+atlas = ExtResource("6_nuihs")
+region = Rect2(864, 0, 96, 64)
+
 [sub_resource type="SpriteFrames" id="SpriteFrames_22hk0"]
 animations = [{
 "frames": [{
@@ -279,6 +323,41 @@ animations = [{
 "loop": true,
 "name": &"idle",
 "speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_erb3q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ha2ey")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bxsjn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c4337")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xqeco")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hfhdr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m0txw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_44chm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b6t1b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5ad15")
+}],
+"loop": true,
+"name": &"walking",
+"speed": 5.0
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_py5mt"]
@@ -294,8 +373,9 @@ script = ExtResource("1_6fggr")
 position = Vector2(10, -17)
 scale = Vector2(1.17708, 1.23438)
 sprite_frames = SubResource("SpriteFrames_22hk0")
-animation = &"idle"
+animation = &"walking"
 autoplay = "idle"
+frame_progress = 0.961413
 flip_h = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
@@ -309,3 +389,12 @@ shape = SubResource("RectangleShape2D_py5mt")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="AttackArea"]
 position = Vector2(8, -6)
 shape = SubResource("RectangleShape2D_1vxjk")
+
+[node name="SkeletonDeath" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("6_bgotx")
+
+[node name="SkeletonHurt" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("7_52oxe")
+
+[node name="AttackSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("8_divkb")

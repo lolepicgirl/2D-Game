@@ -1,13 +1,17 @@
 extends CharacterBody2D
 
 const SPEED = 100  # Adjust speed if needed
-const GRAVITY = 500 # ADjust gravity strength if needed
+const GRAVITY = 500 # Adjust gravity strength if needed
 const JUMP_FORCE = -300 # Adjust jump force
 var is_attacking = false # Flag to indicate if the attack animation is playing
 var health = 100 # Character health
+var attack_range = 10
 
 @onready var attack_area = get_node("AttackArea")  # Reference to the AttackArea node
 @onready var animated_sprite = $AnimatedSprite2D # Reference to the AnimatedSprite2D node
+@onready var attack_sound = $AttackSound # Reference to the AttackSound node
+@onready var death_sound = $DeathSound # Reference to the DeathSound node
+@onready var hurt_sound = $HurtSound # Reference to the HurtSound node
 
 func _ready():
 	# Connect the animation finished signal
@@ -46,6 +50,7 @@ func _process(delta: float) -> void:
 	# Move the character only if not attacking
 	if not is_attacking:
 			velocity.x = direction.x * SPEED
+			velocity.y = direction.y * SPEED
 			move_and_slide()
 
 	# Attack logic (when the player presses the "attack" button)
@@ -59,6 +64,7 @@ func attack():
 	is_attacking = true
 	print("Player attacks!")
 	animated_sprite.play("attack") # Play the attack animation
+	attack_sound.play() # Play the attack sound
 	var bodies = attack_area.get_overlapping_bodies()  # Get all bodies in the attack area
 	for body in bodies:
 		if body.is_in_group("skeletons") and body.has_method("take_damage"):
@@ -68,3 +74,12 @@ func _on_AnimationFinished():
 	# Ensure the attack animation has finished
 	if animated_sprite.animation == "attack":
 			is_attacking = false
+
+func take_damage():
+	health -= 10
+	print("Player health: %d" % health)
+	hurt_sound.play # Play the hurt sound
+	if health <= 0:
+		death_sound.play() # Play the death sound
+		animated_sprite.play("death") # Play death animation
+		print("Player is dead") # Handle player death
