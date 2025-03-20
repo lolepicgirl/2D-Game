@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://wx2clvdweyto"
+path="res://.godot/imported/Main theme loop.mp3-562b55a2e3a03fbe42056632e4672aaa.mp3str"
+
+[deps]
+
+source_file="res://2D-Game/2d-game/Main theme loop.mp3"
+dest_files=["res://.godot/imported/Main theme loop.mp3-562b55a2e3a03fbe42056632e4672aaa.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
