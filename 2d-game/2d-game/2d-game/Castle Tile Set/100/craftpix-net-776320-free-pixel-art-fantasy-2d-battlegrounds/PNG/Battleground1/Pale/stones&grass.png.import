@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwy8xor6nft6r"
-path="res://.godot/imported/stones&grass.png-1a29ac876d6344b98ecf75cba43dd2e2.ctex"
+path="res://.godot/imported/stones&grass.png-2200000f2589099e91b09ac074563605.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2d-game/2d-game/Castle Tile Set/100/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground1/Pale/stones&grass.png"
-dest_files=["res://.godot/imported/stones&grass.png-1a29ac876d6344b98ecf75cba43dd2e2.ctex"]
+source_file="res://2D-Game/2d-game/Castle Tile Set/100/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground1/Pale/stones&grass.png"
+dest_files=["res://.godot/imported/stones&grass.png-2200000f2589099e91b09ac074563605.ctex"]
 
 [params]
 

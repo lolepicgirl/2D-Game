@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bi0vh86cgdob3"
-path="res://.godot/imported/bones.png-399f7b766669be55dbd4ef17ad22d786.ctex"
+path="res://.godot/imported/bones.png-0e658fbbf6c34ad91895ed06934e6bf9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2d-game/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground4/Bright/bones.png"
-dest_files=["res://.godot/imported/bones.png-399f7b766669be55dbd4ef17ad22d786.ctex"]
+source_file="res://2D-Game/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground4/Bright/bones.png"
+dest_files=["res://.godot/imported/bones.png-0e658fbbf6c34ad91895ed06934e6bf9.ctex"]
 
 [params]
 
