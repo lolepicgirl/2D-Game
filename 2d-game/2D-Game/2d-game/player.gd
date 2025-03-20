@@ -50,6 +50,7 @@ func _process(delta: float) -> void:
 	# Move the character only if not attacking
 	if not is_attacking:
 			velocity.x = direction.x * SPEED
+			velocity.y = direction.y * SPEED
 			move_and_slide()
 
 	# Attack logic (when the player presses the "attack" button)
