@@ -16,7 +16,7 @@
 [ext_resource type="Texture2D" uid="uid://whq6mgse2mph" path="res://Dark_Castle_Interior_pixelart_tileset/door_b.png" id="14_fnnn1"]
 [ext_resource type="Texture2D" uid="uid://bmwd5lwuvjvdh" path="res://Dark_Castle_Interior_pixelart_tileset/gargoyle_2.png" id="15_43cq6"]
 [ext_resource type="Texture2D" uid="uid://i8qv2xe4jo6v" path="res://Dark_Castle_Interior_pixelart_tileset/gargoyle_1.png" id="16_osv6m"]
-[ext_resource type="PackedScene" uid="uid://crvv5xmrnfj78" path="res://skeleton.tscn" id="18_6gj23"]
+[ext_resource type="PackedScene" uid="uid://crvv5xmrnfj78" path="res://2D-Game/2d-game/skeleton.tscn" id="18_6gj23"]
 [ext_resource type="Texture2D" uid="uid://oihn7avebmhk" path="res://Dark_Castle_Interior_pixelart_tileset/Sigils - Dragon Sigil.png" id="18_gtq7x"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fha2r"]

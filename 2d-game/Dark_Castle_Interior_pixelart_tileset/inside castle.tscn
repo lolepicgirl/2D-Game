@@ -13,7 +13,7 @@
 [ext_resource type="Texture2D" uid="uid://uuqowo2f1woo" path="res://Dark_Castle_Interior_pixelart_tileset/background_walls_2.png" id="7_36fe5"]
 [ext_resource type="Texture2D" uid="uid://civb4ndq4c7l" path="res://Dark_Castle_Interior_pixelart_tileset/window.png" id="7_40lmm"]
 [ext_resource type="Texture2D" uid="uid://d3xbluef7qai8" path="res://Dark_Castle_Interior_pixelart_tileset/candle_animation.png" id="8_ilume"]
-[ext_resource type="PackedScene" uid="uid://ch422o3yt01qe" path="res://player.tscn" id="13_82uu2"]
+[ext_resource type="PackedScene" uid="uid://ch422o3yt01qe" path="res://2D-Game/2d-game/player.tscn" id="13_82uu2"]
 [ext_resource type="Texture2D" uid="uid://whq6mgse2mph" path="res://Dark_Castle_Interior_pixelart_tileset/door_b.png" id="14_blgin"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0pw1g"]

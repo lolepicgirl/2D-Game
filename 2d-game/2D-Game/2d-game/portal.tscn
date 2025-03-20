@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://d1rbcvnlceu0o"]
 
-[ext_resource type="Script" path="res://portal.gd" id="1_t8ion"]
+[ext_resource type="Script" path="res://2D-Game/2d-game/portal.gd" id="1_t8ion"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_t6061"]
 
