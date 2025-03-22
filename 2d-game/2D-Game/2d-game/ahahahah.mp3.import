@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://b7kd2huxtf4ml"
-path="res://.godot/imported/ahahahah.mp3-6dffcc2d92a9f3fe49c6b9a1895423d3.mp3str"
+path="res://.godot/imported/ahahahah.mp3-35f5e4a013f2505dc825508da315523b.mp3str"
 
 [deps]
 
-source_file="res://2d-game/2d-game/ahahahah.mp3"
-dest_files=["res://.godot/imported/ahahahah.mp3-6dffcc2d92a9f3fe49c6b9a1895423d3.mp3str"]
+source_file="res://2D-Game/2d-game/ahahahah.mp3"
+dest_files=["res://.godot/imported/ahahahah.mp3-35f5e4a013f2505dc825508da315523b.mp3str"]
 
 [params]
 

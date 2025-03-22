@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://ukgrmyjkrh7l"
-path="res://.godot/imported/Skelly Hurt.wav-01b026091f5613586ee291ac3ac4828a.sample"
+path="res://.godot/imported/Skelly Hurt.wav-1df0a47c9d3c925dffa7b1f175cdb4ea.sample"
 
 [deps]
 
-source_file="res://2d-game/2d-game/Skelly Hurt.wav"
-dest_files=["res://.godot/imported/Skelly Hurt.wav-01b026091f5613586ee291ac3ac4828a.sample"]
+source_file="res://2D-Game/2d-game/Skelly Hurt.wav"
+dest_files=["res://.godot/imported/Skelly Hurt.wav-1df0a47c9d3c925dffa7b1f175cdb4ea.sample"]
 
 [params]
 

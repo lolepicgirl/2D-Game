@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://nm4nnvl2ltu3"
-path="res://.godot/imported/stairs.mp3-ebad89e66abd9fad2c8c64281744eb28.mp3str"
+path="res://.godot/imported/stairs.mp3-0f42e5d64e579e5990fa71c99e8d77ee.mp3str"
 
 [deps]
 
-source_file="res://2d-game/2d-game/stairs.mp3"
-dest_files=["res://.godot/imported/stairs.mp3-ebad89e66abd9fad2c8c64281744eb28.mp3str"]
+source_file="res://2D-Game/2d-game/stairs.mp3"
+dest_files=["res://.godot/imported/stairs.mp3-0f42e5d64e579e5990fa71c99e8d77ee.mp3str"]
 
 [params]
 

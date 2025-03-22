@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://36ga7tvwvvlr"]
+
+[ext_resource type="Texture2D" uid="uid://di4iy6up6t41" path="res://How to.png" id="1_7ge0s"]
+
+[node name="HowToPlay" type="Node2D"]
+
+[node name="Instructions" type="Sprite2D" parent="."]
+position = Vector2(582.5, 320.75)
+scale = Vector2(0.439925, 0.43256)
+texture = ExtResource("1_7ge0s")
