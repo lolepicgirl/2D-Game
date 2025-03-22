@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cpc1xisuoxbs3"
-path="res://.godot/imported/COUPON.png-743f2a6a0b9af05a83018e5fa9a3698b.ctex"
+path="res://.godot/imported/COUPON.png-024cd89d5d7c9c3181554b689602815a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2D-Game/2d-game/Castle Tile Set/100/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/COUPON.png"
-dest_files=["res://.godot/imported/COUPON.png-743f2a6a0b9af05a83018e5fa9a3698b.ctex"]
+source_file="res://2d-game/2d-game/Castle Tile Set/100/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/COUPON.png"
+dest_files=["res://.godot/imported/COUPON.png-024cd89d5d7c9c3181554b689602815a.ctex"]
 
 [params]
 

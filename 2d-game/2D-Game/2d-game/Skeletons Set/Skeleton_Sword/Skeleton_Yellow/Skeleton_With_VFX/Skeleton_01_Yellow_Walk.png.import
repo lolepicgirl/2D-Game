@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://5ilr8faobasb"
-path="res://.godot/imported/Skeleton_01_Yellow_Walk.png-e8828b7b5927e9becfc4be6e0cf815c2.ctex"
+path="res://.godot/imported/Skeleton_01_Yellow_Walk.png-08d96aa0242573ecec146d1c18bc1e6f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2D-Game/2d-game/Skeletons Set/Skeleton_Sword/Skeleton_Yellow/Skeleton_With_VFX/Skeleton_01_Yellow_Walk.png"
-dest_files=["res://.godot/imported/Skeleton_01_Yellow_Walk.png-e8828b7b5927e9becfc4be6e0cf815c2.ctex"]
+source_file="res://2d-game/2d-game/Skeletons Set/Skeleton_Sword/Skeleton_Yellow/Skeleton_With_VFX/Skeleton_01_Yellow_Walk.png"
+dest_files=["res://.godot/imported/Skeleton_01_Yellow_Walk.png-08d96aa0242573ecec146d1c18bc1e6f.ctex"]
 
 [params]
 

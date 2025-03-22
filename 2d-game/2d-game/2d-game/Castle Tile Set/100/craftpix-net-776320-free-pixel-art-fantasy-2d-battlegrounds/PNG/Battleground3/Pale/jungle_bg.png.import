@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://doqdly4sw5rm7"
-path="res://.godot/imported/jungle_bg.png-bba3d8ea31181bfd695c7a3805168346.ctex"
+path="res://.godot/imported/jungle_bg.png-40d550120d21d5336cd578533512776f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2D-Game/2d-game/Castle Tile Set/100/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground3/Pale/jungle_bg.png"
-dest_files=["res://.godot/imported/jungle_bg.png-bba3d8ea31181bfd695c7a3805168346.ctex"]
+source_file="res://2d-game/2d-game/Castle Tile Set/100/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground3/Pale/jungle_bg.png"
+dest_files=["res://.godot/imported/jungle_bg.png-40d550120d21d5336cd578533512776f.ctex"]
 
 [params]
 

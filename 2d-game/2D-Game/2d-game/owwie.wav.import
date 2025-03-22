@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://cfmtdyqsidj6"
-path="res://.godot/imported/owwie.wav-40796a5cd5e96a3837f41409dd165fb9.sample"
+path="res://.godot/imported/owwie.wav-6291dd015079797a825a95cb5f4515fe.sample"
 
 [deps]
 
-source_file="res://2D-Game/2d-game/owwie.wav"
-dest_files=["res://.godot/imported/owwie.wav-40796a5cd5e96a3837f41409dd165fb9.sample"]
+source_file="res://2d-game/2d-game/owwie.wav"
+dest_files=["res://.godot/imported/owwie.wav-6291dd015079797a825a95cb5f4515fe.sample"]
 
 [params]
 
