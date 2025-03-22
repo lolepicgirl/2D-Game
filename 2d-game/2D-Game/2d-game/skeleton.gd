@@ -7,6 +7,8 @@ const ATTACK_COOLDOWN = 2.0 # Cooldown period in seconds
 var attack_range = 50  # Define attack range
 var health = 50 # Skeleton health
 var is_attacking = false # Flag to indicate if the attack animation is playing
+var is_hurt = false # Flag to indicate if the hurt animation is playing
+var is_dead = false # Flag to indicate if the skeleton is dead
 var last_attack_time = -ATTACK_COOLDOWN # Time of the last attack
 
 @onready var attack_area = get_node("AttackArea")  # Reference to the attack collision area
@@ -23,6 +25,9 @@ func _ready():
 		print("Player node not found!")
 
 func _process(delta) -> void:
+	if is_dead:
+		return
+	
 	var direction = Vector2.ZERO  # No movement by default
 	
 	# Move towards the player horizontally
@@ -47,6 +52,8 @@ func _process(delta) -> void:
 		# Change animation based on movement and attack state
 		if is_attacking:
 			animated_sprite.play("attack")
+		elif is_hurt:
+			animated_sprite.play("hurt")
 		elif direction == Vector2.ZERO:
 			animated_sprite.play("idle")
 		else:
@@ -69,11 +76,26 @@ func attack():
 		is_attacking = false
 
 func take_damage():
+	if is_dead:
+		return
+		
 	health -= 10
 	print("Enemy health: %d" % health)
+	is_hurt = true
 	animated_sprite.play("hurt")
 	hurt_sound.play()
+	await (get_tree().create_timer(0.5).timeout) # Wait for the hurt animation to finish
+	is_hurt = false
+		
 	if health <= 0:
-		animated_sprite.play("dead") # Play death animation
-		death_sound.play() # Play skeleton death sound
-		queue_free() # Remove skeleton from scene
+		die()
+
+func die():
+	animated_sprite.play("dead") # Play death animation
+	death_sound.play() # Play skeleton death sound
+	animated_sprite.connect("animation_finished", Callable(self, "_on_AnimationFinished"))
+	
+func _on_animation_finished(anim_name: String):
+	if anim_name == "dead":
+		queue_free() # Remove the skeletons after they die
+	

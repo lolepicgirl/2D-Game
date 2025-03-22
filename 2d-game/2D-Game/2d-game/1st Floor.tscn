@@ -1,13 +1,13 @@
-[gd_scene load_steps=42 format=4 uid="uid://defrlmjmorrxa"]
+[gd_scene load_steps=43 format=4 uid="uid://defrlmjmorrxa"]
 
-[ext_resource type="PackedScene" uid="uid://b3hqnki01d6lg" path="res://2d-game/2d-game/castleinteriorbkg.tscn" id="1_q64fm"]
+[ext_resource type="PackedScene" uid="uid://b3hqnki01d6lg" path="res://2D-Game/2d-game/castleinteriorbkg.tscn" id="1_q64fm"]
 [ext_resource type="Texture2D" uid="uid://6s40ghagysjx" path="res://Dark_Castle_Interior_pixelart_tileset/walls.png" id="1_qupwx"]
 [ext_resource type="Texture2D" uid="uid://78we0s8c8x21" path="res://Dark_Castle_Interior_pixelart_tileset/horns.png" id="2_wfplo"]
 [ext_resource type="Texture2D" uid="uid://cdo2epi3i2yt3" path="res://Dark_Castle_Interior_pixelart_tileset/statue_1.png" id="3_twa82"]
 [ext_resource type="Texture2D" uid="uid://cf0mwbsn2cawn" path="res://Dark_Castle_Interior_pixelart_tileset/lantern_2.png" id="4_1vtj4"]
 [ext_resource type="Texture2D" uid="uid://drry8p24ws1ug" path="res://Dark_Castle_Interior_pixelart_tileset/fireplace_fire_animation.png" id="5_hqfut"]
-[ext_resource type="Texture2D" uid="uid://b8n3qd5vqbcjs" path="res://2d-game/2d-game/Castle-Hall/Tiles/Props.png" id="6_uymx1"]
-[ext_resource type="Texture2D" uid="uid://b2fg0qfvevv2d" path="res://2d-game/2d-game/Castle-Hall/Tiles/Tiles.png" id="7_vnbwf"]
+[ext_resource type="Texture2D" uid="uid://b8n3qd5vqbcjs" path="res://2D-Game/2d-game/Castle-Hall/Tiles/Props.png" id="6_uymx1"]
+[ext_resource type="Texture2D" uid="uid://b2fg0qfvevv2d" path="res://2D-Game/2d-game/Castle-Hall/Tiles/Tiles.png" id="7_vnbwf"]
 [ext_resource type="Texture2D" uid="uid://civb4ndq4c7l" path="res://Dark_Castle_Interior_pixelart_tileset/window.png" id="8_2nyp3"]
 [ext_resource type="Texture2D" uid="uid://cqd8wsn0x105f" path="res://Dark_Castle_Interior_pixelart_tileset/statue_2.png" id="9_6j4rn"]
 [ext_resource type="Texture2D" uid="uid://chkmwduvft1xf" path="res://Dark_Castle_Interior_pixelart_tileset/lantern_1.png" id="10_k7guj"]
@@ -15,12 +15,13 @@
 [ext_resource type="Texture2D" uid="uid://uuqowo2f1woo" path="res://Dark_Castle_Interior_pixelart_tileset/background_walls_2.png" id="12_401ai"]
 [ext_resource type="Texture2D" uid="uid://d3xbluef7qai8" path="res://Dark_Castle_Interior_pixelart_tileset/candle_animation.png" id="13_5s7ta"]
 [ext_resource type="Texture2D" uid="uid://whq6mgse2mph" path="res://Dark_Castle_Interior_pixelart_tileset/door_b.png" id="14_8g170"]
-[ext_resource type="PackedScene" uid="uid://ch422o3yt01qe" path="res://2d-game/2d-game/player.tscn" id="15_lr2pf"]
-[ext_resource type="PackedScene" uid="uid://cmqsya0gcdlsq" path="res://2d-game/2d-game/2nd Floor.tscn" id="15_wu273"]
-[ext_resource type="PackedScene" uid="uid://crvv5xmrnfj78" path="res://2d-game/2d-game/skeleton.tscn" id="16_tprm0"]
-[ext_resource type="AudioStream" uid="uid://bv1cuepb2sjue" path="res://2d-game/2d-game/horror-ambience-3-303646.mp3" id="17_4ipct"]
-[ext_resource type="PackedScene" uid="uid://d1rbcvnlceu0o" path="res://2d-game/2d-game/portal.tscn" id="18_vhtxu"]
+[ext_resource type="PackedScene" uid="uid://ch422o3yt01qe" path="res://2D-Game/2d-game/player.tscn" id="15_lr2pf"]
+[ext_resource type="PackedScene" uid="uid://cmqsya0gcdlsq" path="res://2D-Game/2d-game/2nd Floor.tscn" id="15_wu273"]
+[ext_resource type="PackedScene" uid="uid://crvv5xmrnfj78" path="res://2D-Game/2d-game/skeleton.tscn" id="16_tprm0"]
+[ext_resource type="AudioStream" uid="uid://bv1cuepb2sjue" path="res://2D-Game/2d-game/horror-ambience-3-303646.mp3" id="17_4ipct"]
+[ext_resource type="PackedScene" uid="uid://b0imuvvotoqb8" path="res://2d-game/2d-game/portal.tscn" id="18_vhtxu"]
 [ext_resource type="Texture2D" uid="uid://2uy0kccaings" path="res://Dark_Castle_Interior_pixelart_tileset/Sigils - Magic Eye Sigil.png" id="21_2qt56"]
+[ext_resource type="AudioStream" uid="uid://wx2clvdweyto" path="res://2D-Game/2d-game/Main theme loop.mp3" id="22_5jgfb"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0pw1g"]
 texture = ExtResource("1_qupwx")
@@ -1401,3 +1402,7 @@ autoplay = true
 [node name="Sigils-MagicEyeSigil" type="Sprite2D" parent="."]
 position = Vector2(1101, 608)
 texture = ExtResource("21_2qt56")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("22_5jgfb")
+autoplay = true

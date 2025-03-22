@@ -229,7 +229,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"attack",
-"speed": 5.0
+"speed": 7.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -273,7 +273,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"dead",
-"speed": 5.0
+"speed": 10.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -293,7 +293,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"hurt",
-"speed": 5.0
+"speed": 8.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -357,7 +357,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"walking",
-"speed": 5.0
+"speed": 7.0
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_py5mt"]
@@ -373,9 +373,8 @@ script = ExtResource("1_6fggr")
 position = Vector2(10, -17)
 scale = Vector2(1.17708, 1.23438)
 sprite_frames = SubResource("SpriteFrames_22hk0")
-animation = &"walking"
-autoplay = "idle"
-frame_progress = 0.961413
+animation = &"idle"
+frame_progress = 0.317643
 flip_h = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

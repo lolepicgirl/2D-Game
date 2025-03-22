@@ -75,9 +75,9 @@ func _on_AnimationFinished():
 			is_attacking = false
 
 func take_damage():
+	hurt_sound.play # Play the hurt sound
 	health -= 10
 	print("Player health: %d" % health)
-	hurt_sound.play # Play the hurt sound
 	if health <= 0:
 		death_sound.play() # Play the death sound
 		animated_sprite.play("death") # Play death animation
