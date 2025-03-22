@@ -21,9 +21,16 @@ var last_attack_time = -ATTACK_COOLDOWN # Time of the last attack
 func _ready():
 	# Find the player node
 	player = get_parent().get_node("player")
-	if not player:
-		print("Player node not found!")
-
+	if player == null:
+		print ("Player node not found! Attempting to find in the scene tree...")
+		player = get_tree().root.get_node_or_null("root/player")
+		if player == null:
+			print ("player node not found in the entire scene tree.")
+		else:
+			print ("Player node found in the scene tree.")
+	else:
+		print("Player node found in the parent.")
+		
 func _process(delta) -> void:
 	if is_dead:
 		return
@@ -91,11 +98,18 @@ func take_damage():
 		die()
 
 func die():
+	is_dead = true
+	velocity = Vector2.ZERO
 	animated_sprite.play("dead") # Play death animation
 	death_sound.play() # Play skeleton death sound
+	
 	animated_sprite.connect("animation_finished", Callable(self, "_on_AnimationFinished"))
 	
 func _on_animation_finished(anim_name: String):
 	if anim_name == "dead":
 		queue_free() # Remove the skeletons after they die
+	elif anim_name == "attack":
+		is_attacking = false
+	elif anim_name == "hurt":
+		is_hurt = false
 	
