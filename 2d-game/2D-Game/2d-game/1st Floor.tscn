@@ -1336,7 +1336,7 @@ func _floor():
 "
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rvnse"]
-size = Vector2(20, 364)
+size = Vector2(20, 543)
 
 [node name="Node2D" type="Node2D"]
 
@@ -1381,7 +1381,11 @@ shape = SubResource("RectangleShape2D_b5cf3")
 script = SubResource("GDScript_yxpvv")
 
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D2"]
-position = Vector2(-17, 555)
+position = Vector2(-17, 508.5)
+shape = SubResource("RectangleShape2D_rvnse")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D2"]
+position = Vector2(1199, 463)
 shape = SubResource("RectangleShape2D_rvnse")
 
 [node name="Node2D" parent="." instance=ExtResource("15_wu273")]
