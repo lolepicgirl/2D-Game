@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b5sjsc15g6t3q"
-path="res://.godot/imported/statue.png-5a27108f8f6f75fa7b56a979b48adcb8.ctex"
+path="res://.godot/imported/statue.png-057fad1bc0efa1d0a3c6e942570294df.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2D-Game/2d-game/Castle Tile Set/100/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground1/Pale/statue.png"
-dest_files=["res://.godot/imported/statue.png-5a27108f8f6f75fa7b56a979b48adcb8.ctex"]
+source_file="res://2d-game/2d-game/Castle Tile Set/100/craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground1/Pale/statue.png"
+dest_files=["res://.godot/imported/statue.png-057fad1bc0efa1d0a3c6e942570294df.ctex"]
 
 [params]
 

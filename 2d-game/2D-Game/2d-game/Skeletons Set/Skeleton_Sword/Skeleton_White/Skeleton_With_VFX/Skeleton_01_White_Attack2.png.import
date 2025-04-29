@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://tidld1ug6v41"
-path="res://.godot/imported/Skeleton_01_White_Attack2.png-088d88938ffaef4ae056b456f11aa2b3.ctex"
+path="res://.godot/imported/Skeleton_01_White_Attack2.png-6958892de4561fb2ad99db6395548873.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2D-Game/2d-game/Skeletons Set/Skeleton_Sword/Skeleton_White/Skeleton_With_VFX/Skeleton_01_White_Attack2.png"
-dest_files=["res://.godot/imported/Skeleton_01_White_Attack2.png-088d88938ffaef4ae056b456f11aa2b3.ctex"]
+source_file="res://2d-game/2d-game/Skeletons Set/Skeleton_Sword/Skeleton_White/Skeleton_With_VFX/Skeleton_01_White_Attack2.png"
+dest_files=["res://.godot/imported/Skeleton_01_White_Attack2.png-6958892de4561fb2ad99db6395548873.ctex"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://wx2clvdweyto"
-path="res://.godot/imported/Main theme loop.mp3-562b55a2e3a03fbe42056632e4672aaa.mp3str"
+path="res://.godot/imported/Main theme loop.mp3-538c89c6b766937ff7fd781112e29665.mp3str"
 
 [deps]
 
-source_file="res://2D-Game/2d-game/Main theme loop.mp3"
-dest_files=["res://.godot/imported/Main theme loop.mp3-562b55a2e3a03fbe42056632e4672aaa.mp3str"]
+source_file="res://2d-game/2d-game/Main theme loop.mp3"
+dest_files=["res://.godot/imported/Main theme loop.mp3-538c89c6b766937ff7fd781112e29665.mp3str"]
 
 [params]
 
